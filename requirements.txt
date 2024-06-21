@@ -2,10 +2,8 @@ gunicorn
 pandas
 numpy
 streamlit
-ast
 scikit-learn
 matplotlib
 sentence-transformers
-random
 tqdm
 
