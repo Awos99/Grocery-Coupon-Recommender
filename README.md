@@ -71,3 +71,6 @@ def get_product_recommendations(df_transactions, df_user_loyalty, df_grocery_pro
 
 Implementing these algorithms in a grocery store franchise can lead to more effective discounts, increased sales, optimized inventory management, and a significant competitive advantage.
 
+Please try the app here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://grocery-coupon-recommender.streamlit.app/)
