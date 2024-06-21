@@ -1,0 +1,184 @@
+user,loyalty_card,franchise
+User1,Card26,Veritas
+User1,Card36,Dia
+User2,Card78,Carrefour
+User2,Card48,Caprabo
+User3,Card114,Local Market
+User4,Card158,Carrefour
+User4,Card74,Veritas
+User5,Card54,Ametller Origen
+User6,Card25,Ametller Origen
+User6,Card77,Consum
+User7,Card18,Caprabo
+User8,Card172,Consum
+User8,Card110,Mercadona
+User8,Card177,Bon Preu
+User9,Card173,Bon Preu
+User10,Card183,El Corte Inglés
+User11,Card7,Consum
+User11,Card155,Lidl
+User12,Card159,Mercadona
+User13,Card12,Caprabo
+User13,Card52,El Corte Inglés
+User14,Card125,Carrefour
+User15,Card31,Mercadona
+User15,Card170,Dia
+User16,Card71,Bon Preu
+User17,Card198,Bon Preu
+User17,Card99,Mercadona
+User18,Card175,Caprabo
+User18,Card40,Lidl
+User18,Card197,Veritas
+User19,Card43,Caprabo
+User19,Card179,Ametller Origen
+User19,Card122,El Corte Inglés
+User20,Card97,Consum
+User20,Card13,Local Market
+User21,Card88,Mercadona
+User21,Card153,Dia
+User21,Card15,Consum
+User22,Card29,Caprabo
+User23,Card163,Bon Preu
+User23,Card93,Caprabo
+User24,Card186,Ametller Origen
+User25,Card56,Veritas
+User25,Card129,El Corte Inglés
+User26,Card188,Ametller Origen
+User27,Card167,Dia
+User28,Card135,Local Market
+User28,Card30,Ametller Origen
+User29,Card162,Lidl
+User29,Card72,Local Market
+User29,Card181,El Corte Inglés
+User30,Card124,Bon Preu
+User30,Card61,Dia
+User30,Card9,Carrefour
+User31,Card130,Mercadona
+User32,Card196,Local Market
+User33,Card150,Dia
+User34,Card165,Mercadona
+User35,Card184,Veritas
+User35,Card113,Consum
+User36,Card191,Local Market
+User36,Card132,El Corte Inglés
+User37,Card142,Bon Preu
+User38,Card166,Mercadona
+User39,Card53,Dia
+User39,Card131,Local Market
+User39,Card190,El Corte Inglés
+User40,Card65,El Corte Inglés
+User41,Card4,Caprabo
+User42,Card90,Carrefour
+User43,Card107,Bon Preu
+User44,Card145,Consum
+User44,Card84,El Corte Inglés
+User44,Card80,Ametller Origen
+User45,Card66,Caprabo
+User45,Card176,El Corte Inglés
+User45,Card19,Bon Preu
+User46,Card134,Mercadona
+User46,Card47,Local Market
+User47,Card182,Mercadona
+User47,Card137,Ametller Origen
+User48,Card119,Bon Preu
+User48,Card91,Consum
+User49,Card141,Carrefour
+User49,Card112,Veritas
+User50,Card192,Caprabo
+User51,Card49,Carrefour
+User51,Card57,Ametller Origen
+User52,Card187,Bon Preu
+User53,Card76,Veritas
+User53,Card117,Caprabo
+User54,Card5,Veritas
+User55,Card115,Mercadona
+User55,Card32,Caprabo
+User56,Card34,Carrefour
+User57,Card16,Local Market
+User57,Card111,Carrefour
+User57,Card85,El Corte Inglés
+User58,Card17,Lidl
+User58,Card33,El Corte Inglés
+User59,Card105,El Corte Inglés
+User59,Card168,Local Market
+User60,Card96,Ametller Origen
+User60,Card55,Consum
+User61,Card81,El Corte Inglés
+User61,Card51,Veritas
+User62,Card6,Local Market
+User62,Card75,El Corte Inglés
+User63,Card118,Veritas
+User63,Card199,Lidl
+User63,Card14,Local Market
+User64,Card69,Lidl
+User64,Card70,Local Market
+User64,Card38,Caprabo
+User65,Card21,Consum
+User66,Card28,Mercadona
+User66,Card100,El Corte Inglés
+User67,Card10,Consum
+User67,Card157,El Corte Inglés
+User68,Card92,Consum
+User68,Card195,Dia
+User69,Card63,Veritas
+User70,Card1,Ametller Origen
+User70,Card143,Mercadona
+User70,Card200,Dia
+User71,Card154,Local Market
+User72,Card189,Carrefour
+User72,Card136,Dia
+User73,Card152,Dia
+User73,Card8,Consum
+User74,Card171,Mercadona
+User75,Card44,Dia
+User75,Card140,Carrefour
+User76,Card169,Consum
+User77,Card87,Caprabo
+User77,Card138,El Corte Inglés
+User78,Card139,Caprabo
+User78,Card178,Mercadona
+User78,Card23,Local Market
+User79,Card94,Local Market
+User80,Card160,Ametller Origen
+User80,Card103,Dia
+User80,Card39,Bon Preu
+User81,Card180,Mercadona
+User81,Card147,Caprabo
+User82,Card86,El Corte Inglés
+User82,Card46,Veritas
+User82,Card101,Dia
+User83,Card41,El Corte Inglés
+User83,Card37,Mercadona
+User84,Card144,Lidl
+User85,Card116,El Corte Inglés
+User85,Card106,Consum
+User86,Card60,Caprabo
+User86,Card89,Lidl
+User87,Card151,Lidl
+User87,Card3,Caprabo
+User88,Card148,Lidl
+User89,Card2,El Corte Inglés
+User89,Card79,Carrefour
+User90,Card82,Caprabo
+User90,Card120,Dia
+User91,Card58,Lidl
+User91,Card194,Dia
+User92,Card121,Carrefour
+User92,Card126,Caprabo
+User93,Card73,Bon Preu
+User93,Card20,Carrefour
+User94,Card193,Veritas
+User94,Card133,Local Market
+User94,Card22,Mercadona
+User95,Card128,Ametller Origen
+User95,Card62,El Corte Inglés
+User95,Card164,Mercadona
+User96,Card161,Mercadona
+User96,Card95,Lidl
+User96,Card174,Bon Preu
+User97,Card50,Carrefour
+User98,Card64,Lidl
+User98,Card185,El Corte Inglés
+User99,Card83,Mercadona
+User100,Card123,Dia
+User100,Card156,Mercadona

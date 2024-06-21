@@ -1,0 +1,5238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9ee8852d3c0245a4ceea3c89f479db30 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9ee8852d3c0245a4ceea3c89f479db30" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9ee8852d3c0245a4ceea3c89f479db30 = L.map(
+                "map_9ee8852d3c0245a4ceea3c89f479db30",
+                {
+                    center: [41.3879, 2.1699],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_63ecaa11130508f6a507a006f546df8a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_63ecaa11130508f6a507a006f546df8a.addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+            var marker_5494abf091ea202fd998b171b4b38b76 = L.marker(
+                [41.384808920358715, 2.158768581393412],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8ea650c14434e01c91606fb84beddb56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf56dc8395621599aecd38a9b0f0682a = $(`<div id="html_bf56dc8395621599aecd38a9b0f0682a" style="width: 100.0%; height: 100.0%;">Mercat de Sant Antoni</div>`)[0];
+                popup_8ea650c14434e01c91606fb84beddb56.setContent(html_bf56dc8395621599aecd38a9b0f0682a);
+            
+        
+
+        marker_5494abf091ea202fd998b171b4b38b76.bindPopup(popup_8ea650c14434e01c91606fb84beddb56)
+        ;
+
+        
+    
+    
+            var marker_5ea64e902495766c69a50001bb4fd1e4 = L.marker(
+                [41.38290638889638, 2.182094360070958],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b130aee7fe2e5833d1a079f9cc5e226e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b6a7912eecb5fc245f75a0cf4503344 = $(`<div id="html_5b6a7912eecb5fc245f75a0cf4503344" style="width: 100.0%; height: 100.0%;">Mercat de la Boqueria</div>`)[0];
+                popup_b130aee7fe2e5833d1a079f9cc5e226e.setContent(html_5b6a7912eecb5fc245f75a0cf4503344);
+            
+        
+
+        marker_5ea64e902495766c69a50001bb4fd1e4.bindPopup(popup_b130aee7fe2e5833d1a079f9cc5e226e)
+        ;
+
+        
+    
+    
+            var marker_7adda79ff678721aaa8c2c8a216833f6 = L.marker(
+                [41.3802461506137, 2.1853924812372028],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a93a2a8e20b63805df651e4cc00e271b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70e41fd90e302a5244d654037175d043 = $(`<div id="html_70e41fd90e302a5244d654037175d043" style="width: 100.0%; height: 100.0%;">Mercat de Santa Caterina</div>`)[0];
+                popup_a93a2a8e20b63805df651e4cc00e271b.setContent(html_70e41fd90e302a5244d654037175d043);
+            
+        
+
+        marker_7adda79ff678721aaa8c2c8a216833f6.bindPopup(popup_a93a2a8e20b63805df651e4cc00e271b)
+        ;
+
+        
+    
+    
+            var marker_802e059af6cb7f1e1d70720abc507b9e = L.marker(
+                [41.39918710549444, 2.1749621317042456],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_21cd85e0e46e2e927d8503e13ad2e2e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_200bcd107dcb78d3c4e18afa0f8b801c = $(`<div id="html_200bcd107dcb78d3c4e18afa0f8b801c" style="width: 100.0%; height: 100.0%;">Mercat de la Concepció</div>`)[0];
+                popup_21cd85e0e46e2e927d8503e13ad2e2e0.setContent(html_200bcd107dcb78d3c4e18afa0f8b801c);
+            
+        
+
+        marker_802e059af6cb7f1e1d70720abc507b9e.bindPopup(popup_21cd85e0e46e2e927d8503e13ad2e2e0)
+        ;
+
+        
+    
+    
+            var marker_a423086857a5fb145f179bc1e15d14d2 = L.marker(
+                [41.4238350247474, 2.1938854534610845],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_99519b1880789d24f7237ae6b3d37449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc0885253bac8b525480899ef5e797cb = $(`<div id="html_cc0885253bac8b525480899ef5e797cb" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_99519b1880789d24f7237ae6b3d37449.setContent(html_cc0885253bac8b525480899ef5e797cb);
+            
+        
+
+        marker_a423086857a5fb145f179bc1e15d14d2.bindPopup(popup_99519b1880789d24f7237ae6b3d37449)
+        ;
+
+        
+    
+    
+            var marker_ac192320196483d564797a89811f17d5 = L.marker(
+                [41.406935379142126, 2.185278690122725],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_9151d91cfac3135ec8e1afc15aea6c7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_105cb1b72c49f09ca8a6ce7d7f054964 = $(`<div id="html_105cb1b72c49f09ca8a6ce7d7f054964" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_9151d91cfac3135ec8e1afc15aea6c7d.setContent(html_105cb1b72c49f09ca8a6ce7d7f054964);
+            
+        
+
+        marker_ac192320196483d564797a89811f17d5.bindPopup(popup_9151d91cfac3135ec8e1afc15aea6c7d)
+        ;
+
+        
+    
+    
+            var marker_0fbce88988cee30bfa2b0ae504cba168 = L.marker(
+                [41.394240147912356, 2.1921449675291833],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_0a85bb7d71cd320455200bd2af7ffacb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd146cd7f2ed7988d0c5f70446cdb78d = $(`<div id="html_fd146cd7f2ed7988d0c5f70446cdb78d" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_0a85bb7d71cd320455200bd2af7ffacb.setContent(html_fd146cd7f2ed7988d0c5f70446cdb78d);
+            
+        
+
+        marker_0fbce88988cee30bfa2b0ae504cba168.bindPopup(popup_0a85bb7d71cd320455200bd2af7ffacb)
+        ;
+
+        
+    
+    
+            var marker_38f1b648989b1fba7d68fa55437c9ea6 = L.marker(
+                [41.382349782206674, 2.183106854786418],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_dd603be923eaece6264db6cdb633886b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_707e24d15991ef5af6df93175eda47fb = $(`<div id="html_707e24d15991ef5af6df93175eda47fb" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_dd603be923eaece6264db6cdb633886b.setContent(html_707e24d15991ef5af6df93175eda47fb);
+            
+        
+
+        marker_38f1b648989b1fba7d68fa55437c9ea6.bindPopup(popup_dd603be923eaece6264db6cdb633886b)
+        ;
+
+        
+    
+    
+            var marker_b5d47f2c2df7d090d6683fb2123aa2bc = L.marker(
+                [41.39679560564484, 2.1769068236129345],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c01796e4476b365c1329c43e66189d16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57ec23ce71cbcb51dc8b6e4318526893 = $(`<div id="html_57ec23ce71cbcb51dc8b6e4318526893" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_c01796e4476b365c1329c43e66189d16.setContent(html_57ec23ce71cbcb51dc8b6e4318526893);
+            
+        
+
+        marker_b5d47f2c2df7d090d6683fb2123aa2bc.bindPopup(popup_c01796e4476b365c1329c43e66189d16)
+        ;
+
+        
+    
+    
+            var marker_2cc43c671669daaa99c2563e8529aeb5 = L.marker(
+                [41.386610833444955, 2.1787076973236728],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_dd063ebfd5471727cbae8abb71bc395c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71ac067cc9b2fd1dc2741904d23862d0 = $(`<div id="html_71ac067cc9b2fd1dc2741904d23862d0" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_dd063ebfd5471727cbae8abb71bc395c.setContent(html_71ac067cc9b2fd1dc2741904d23862d0);
+            
+        
+
+        marker_2cc43c671669daaa99c2563e8529aeb5.bindPopup(popup_dd063ebfd5471727cbae8abb71bc395c)
+        ;
+
+        
+    
+    
+            var marker_32dfa9563ee6690652526dd5b8d0ed65 = L.marker(
+                [41.39005189049654, 2.160889108741458],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e036f5004c39ce62c8a6df88da850f13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251094fab1c5118253bd3ad9b2aed6e4 = $(`<div id="html_251094fab1c5118253bd3ad9b2aed6e4" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_e036f5004c39ce62c8a6df88da850f13.setContent(html_251094fab1c5118253bd3ad9b2aed6e4);
+            
+        
+
+        marker_32dfa9563ee6690652526dd5b8d0ed65.bindPopup(popup_e036f5004c39ce62c8a6df88da850f13)
+        ;
+
+        
+    
+    
+            var marker_3a426c3871b6920e73875c219ddafed2 = L.marker(
+                [41.39330100467164, 2.17351916575321],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fddba69781508a7fa5f42299846033cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b45f2e196dd3bc29069e92829aaf3f3f = $(`<div id="html_b45f2e196dd3bc29069e92829aaf3f3f" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_fddba69781508a7fa5f42299846033cc.setContent(html_b45f2e196dd3bc29069e92829aaf3f3f);
+            
+        
+
+        marker_3a426c3871b6920e73875c219ddafed2.bindPopup(popup_fddba69781508a7fa5f42299846033cc)
+        ;
+
+        
+    
+    
+            var marker_8eca71cb1b23f67d4f4ddb77cf69c656 = L.marker(
+                [41.410833556794415, 2.1650889654616394],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_af382efcce9a55baa8884ac34c5c5189 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24193d9e892dc38a4cd20c9b0de1adc1 = $(`<div id="html_24193d9e892dc38a4cd20c9b0de1adc1" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_af382efcce9a55baa8884ac34c5c5189.setContent(html_24193d9e892dc38a4cd20c9b0de1adc1);
+            
+        
+
+        marker_8eca71cb1b23f67d4f4ddb77cf69c656.bindPopup(popup_af382efcce9a55baa8884ac34c5c5189)
+        ;
+
+        
+    
+    
+            var marker_85e7a516a90ff9680f8487af51fc7e94 = L.marker(
+                [41.3947651852192, 2.1974073579906888],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3d7be5f22747539167921f6ff3fdc177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d07dff1dfc41552fd2ff2b5e18357f2b = $(`<div id="html_d07dff1dfc41552fd2ff2b5e18357f2b" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_3d7be5f22747539167921f6ff3fdc177.setContent(html_d07dff1dfc41552fd2ff2b5e18357f2b);
+            
+        
+
+        marker_85e7a516a90ff9680f8487af51fc7e94.bindPopup(popup_3d7be5f22747539167921f6ff3fdc177)
+        ;
+
+        
+    
+    
+            var marker_26ac8420c2c8dd6e5c7d828a651cf51c = L.marker(
+                [41.39404459552931, 2.1829868527437],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_0d761b1c64f29a235649b2a3a12ca251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20ef1c45cb0137aeb3072f63c36d5e5c = $(`<div id="html_20ef1c45cb0137aeb3072f63c36d5e5c" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_0d761b1c64f29a235649b2a3a12ca251.setContent(html_20ef1c45cb0137aeb3072f63c36d5e5c);
+            
+        
+
+        marker_26ac8420c2c8dd6e5c7d828a651cf51c.bindPopup(popup_0d761b1c64f29a235649b2a3a12ca251)
+        ;
+
+        
+    
+    
+            var marker_e37aeab7a6b588bcb081bde3ddde0384 = L.marker(
+                [41.39795159509406, 2.1705346484156967],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5265ff25d2ad4700c24ba4c70de437c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c731a6f634637f19de473f328a951e1 = $(`<div id="html_9c731a6f634637f19de473f328a951e1" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_5265ff25d2ad4700c24ba4c70de437c9.setContent(html_9c731a6f634637f19de473f328a951e1);
+            
+        
+
+        marker_e37aeab7a6b588bcb081bde3ddde0384.bindPopup(popup_5265ff25d2ad4700c24ba4c70de437c9)
+        ;
+
+        
+    
+    
+            var marker_c943568002915b5ad75ee0b48d05734c = L.marker(
+                [41.37238276347826, 2.1580861121927333],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1bc58901d7490f61222c38f133546260 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11e4cb26cc33a7a3d56ad198be2b2b76 = $(`<div id="html_11e4cb26cc33a7a3d56ad198be2b2b76" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_1bc58901d7490f61222c38f133546260.setContent(html_11e4cb26cc33a7a3d56ad198be2b2b76);
+            
+        
+
+        marker_c943568002915b5ad75ee0b48d05734c.bindPopup(popup_1bc58901d7490f61222c38f133546260)
+        ;
+
+        
+    
+    
+            var marker_d447913a53a6c8d0e56c4a18bcccf062 = L.marker(
+                [41.37580464956109, 2.1674403723290365],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d985e69d359ea8aba995feb44d61e591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2380cc8b2f2f007143df5b816aa93b23 = $(`<div id="html_2380cc8b2f2f007143df5b816aa93b23" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_d985e69d359ea8aba995feb44d61e591.setContent(html_2380cc8b2f2f007143df5b816aa93b23);
+            
+        
+
+        marker_d447913a53a6c8d0e56c4a18bcccf062.bindPopup(popup_d985e69d359ea8aba995feb44d61e591)
+        ;
+
+        
+    
+    
+            var marker_9247f9f35a52a4f6026ba9f230175f13 = L.marker(
+                [41.390031600416606, 2.1619598709103864],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bfd719f3bbeb59976a506167ad14cca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f22892c319be8fa1af4c24059a449491 = $(`<div id="html_f22892c319be8fa1af4c24059a449491" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_bfd719f3bbeb59976a506167ad14cca5.setContent(html_f22892c319be8fa1af4c24059a449491);
+            
+        
+
+        marker_9247f9f35a52a4f6026ba9f230175f13.bindPopup(popup_bfd719f3bbeb59976a506167ad14cca5)
+        ;
+
+        
+    
+    
+            var marker_811666c342a1e3a50872d0d08476fe32 = L.marker(
+                [41.39799934390621, 2.1766581095535957],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c5bd1f70746c51c53c7e695c6e6ba802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_964a00d2ff033df4861b89a8ecf24684 = $(`<div id="html_964a00d2ff033df4861b89a8ecf24684" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_c5bd1f70746c51c53c7e695c6e6ba802.setContent(html_964a00d2ff033df4861b89a8ecf24684);
+            
+        
+
+        marker_811666c342a1e3a50872d0d08476fe32.bindPopup(popup_c5bd1f70746c51c53c7e695c6e6ba802)
+        ;
+
+        
+    
+    
+            var marker_989095af1745d6cd07b79c911fbbd2cf = L.marker(
+                [41.37784516017945, 2.1588459972427954],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d9d4f399e4d9615bc32e0a010836a925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3f7f8aeb6ce6d443fbc385b2e47d12 = $(`<div id="html_5c3f7f8aeb6ce6d443fbc385b2e47d12" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_d9d4f399e4d9615bc32e0a010836a925.setContent(html_5c3f7f8aeb6ce6d443fbc385b2e47d12);
+            
+        
+
+        marker_989095af1745d6cd07b79c911fbbd2cf.bindPopup(popup_d9d4f399e4d9615bc32e0a010836a925)
+        ;
+
+        
+    
+    
+            var marker_13b2a672b86bf3c523e7d42dc00ccabe = L.marker(
+                [41.39534555393583, 2.1694939541891047],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ff9c2e60986d988ba555c8a6dc9d8e10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9c377d6e15c705eeaa3b70bebcd2364 = $(`<div id="html_f9c377d6e15c705eeaa3b70bebcd2364" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_ff9c2e60986d988ba555c8a6dc9d8e10.setContent(html_f9c377d6e15c705eeaa3b70bebcd2364);
+            
+        
+
+        marker_13b2a672b86bf3c523e7d42dc00ccabe.bindPopup(popup_ff9c2e60986d988ba555c8a6dc9d8e10)
+        ;
+
+        
+    
+    
+            var marker_6ed2fc0bd1cb6225941a8dfe7ae4dfa2 = L.marker(
+                [41.373598591637005, 2.182483296246705],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_185a99e056507bcf6cd2cfd99937ddd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be58940cadfd1ca0572eb8433ba52783 = $(`<div id="html_be58940cadfd1ca0572eb8433ba52783" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_185a99e056507bcf6cd2cfd99937ddd4.setContent(html_be58940cadfd1ca0572eb8433ba52783);
+            
+        
+
+        marker_6ed2fc0bd1cb6225941a8dfe7ae4dfa2.bindPopup(popup_185a99e056507bcf6cd2cfd99937ddd4)
+        ;
+
+        
+    
+    
+            var marker_d900b05c3655c5f83002270ae8955154 = L.marker(
+                [41.38809939450534, 2.1896181344073393],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d2fa2e2ae4b451134cc6d85160afa286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da863b21dbf6f6db67810dd4ca9e5dcb = $(`<div id="html_da863b21dbf6f6db67810dd4ca9e5dcb" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_d2fa2e2ae4b451134cc6d85160afa286.setContent(html_da863b21dbf6f6db67810dd4ca9e5dcb);
+            
+        
+
+        marker_d900b05c3655c5f83002270ae8955154.bindPopup(popup_d2fa2e2ae4b451134cc6d85160afa286)
+        ;
+
+        
+    
+    
+            var marker_41ba52fe81764c22b02c80fa35b505f5 = L.marker(
+                [41.3871603643768, 2.1553690246856405],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bbf956d44afabfd5e7a2d61ea5695b32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ebcd799246501a635251ca80dc8cd46 = $(`<div id="html_3ebcd799246501a635251ca80dc8cd46" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_bbf956d44afabfd5e7a2d61ea5695b32.setContent(html_3ebcd799246501a635251ca80dc8cd46);
+            
+        
+
+        marker_41ba52fe81764c22b02c80fa35b505f5.bindPopup(popup_bbf956d44afabfd5e7a2d61ea5695b32)
+        ;
+
+        
+    
+    
+            var marker_8a80522a54b8697c58c87da299148c24 = L.marker(
+                [41.38671174515417, 2.195470876783586],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_6ec55af38c2fa977b1b122f848fedc45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3641037a33f82d6d810cfcda3e564d10 = $(`<div id="html_3641037a33f82d6d810cfcda3e564d10" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_6ec55af38c2fa977b1b122f848fedc45.setContent(html_3641037a33f82d6d810cfcda3e564d10);
+            
+        
+
+        marker_8a80522a54b8697c58c87da299148c24.bindPopup(popup_6ec55af38c2fa977b1b122f848fedc45)
+        ;
+
+        
+    
+    
+            var marker_2aea939b7a0a400283b60d97059b582d = L.marker(
+                [41.405626478299226, 2.180572928687492],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f9f7ed16e625a80a95c45b2287794b8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db39794c5b5b8812f93029c55c1a93a = $(`<div id="html_1db39794c5b5b8812f93029c55c1a93a" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_f9f7ed16e625a80a95c45b2287794b8b.setContent(html_1db39794c5b5b8812f93029c55c1a93a);
+            
+        
+
+        marker_2aea939b7a0a400283b60d97059b582d.bindPopup(popup_f9f7ed16e625a80a95c45b2287794b8b)
+        ;
+
+        
+    
+    
+            var marker_9c4f5568a2d95a83c3db44d4057432bc = L.marker(
+                [41.39018974778993, 2.1907957126077133],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f8ed3268ddf22e937a8261d4dce5e1f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ba9d99e43b66b2c94651cf6cbf220a4 = $(`<div id="html_0ba9d99e43b66b2c94651cf6cbf220a4" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_f8ed3268ddf22e937a8261d4dce5e1f7.setContent(html_0ba9d99e43b66b2c94651cf6cbf220a4);
+            
+        
+
+        marker_9c4f5568a2d95a83c3db44d4057432bc.bindPopup(popup_f8ed3268ddf22e937a8261d4dce5e1f7)
+        ;
+
+        
+    
+    
+            var marker_e5e16ebea5fc9b58d8da747121c130fd = L.marker(
+                [41.38556393902384, 2.1772508659521113],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_2053c1fe45d5aa50e981873ba9c0d1e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f916d85a6ea9173811bd0e85f436a7e7 = $(`<div id="html_f916d85a6ea9173811bd0e85f436a7e7" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_2053c1fe45d5aa50e981873ba9c0d1e2.setContent(html_f916d85a6ea9173811bd0e85f436a7e7);
+            
+        
+
+        marker_e5e16ebea5fc9b58d8da747121c130fd.bindPopup(popup_2053c1fe45d5aa50e981873ba9c0d1e2)
+        ;
+
+        
+    
+    
+            var marker_38e157eb20253c32b3cde9c4e0902afd = L.marker(
+                [41.39660899087499, 2.165847082406908],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_7a9e5af2f7491debf891f4ac357cbc93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68824d76417efc3bfae8932ec553bca5 = $(`<div id="html_68824d76417efc3bfae8932ec553bca5" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_7a9e5af2f7491debf891f4ac357cbc93.setContent(html_68824d76417efc3bfae8932ec553bca5);
+            
+        
+
+        marker_38e157eb20253c32b3cde9c4e0902afd.bindPopup(popup_7a9e5af2f7491debf891f4ac357cbc93)
+        ;
+
+        
+    
+    
+            var marker_f3935dce8103d3c5a1f6fef58404f83c = L.marker(
+                [41.39673652474248, 2.167015733867605],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3eb92bce8939daddcbf9c46a27099af9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80db1f5e06eddc90688d503fe84d6958 = $(`<div id="html_80db1f5e06eddc90688d503fe84d6958" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_3eb92bce8939daddcbf9c46a27099af9.setContent(html_80db1f5e06eddc90688d503fe84d6958);
+            
+        
+
+        marker_f3935dce8103d3c5a1f6fef58404f83c.bindPopup(popup_3eb92bce8939daddcbf9c46a27099af9)
+        ;
+
+        
+    
+    
+            var marker_313c0d61477010d2137a11b5adf18b60 = L.marker(
+                [41.397275955940074, 2.1657064548577587],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_2865d10e3336c41b127f2c06e97863ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83bbf537f48018b923ecec45d0b179d9 = $(`<div id="html_83bbf537f48018b923ecec45d0b179d9" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_2865d10e3336c41b127f2c06e97863ea.setContent(html_83bbf537f48018b923ecec45d0b179d9);
+            
+        
+
+        marker_313c0d61477010d2137a11b5adf18b60.bindPopup(popup_2865d10e3336c41b127f2c06e97863ea)
+        ;
+
+        
+    
+    
+            var marker_13244af4327170e7b2ad0c85538732c6 = L.marker(
+                [41.39727578927779, 2.1741501486505586],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a2494b9f193628473e23936256d603c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c52722f01bb858c93f68ef72ceb20243 = $(`<div id="html_c52722f01bb858c93f68ef72ceb20243" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_a2494b9f193628473e23936256d603c4.setContent(html_c52722f01bb858c93f68ef72ceb20243);
+            
+        
+
+        marker_13244af4327170e7b2ad0c85538732c6.bindPopup(popup_a2494b9f193628473e23936256d603c4)
+        ;
+
+        
+    
+    
+            var marker_3e378dddb18b6918fd6a9d56e28657c9 = L.marker(
+                [41.394030921711604, 2.178970441906841],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3547424be0ae577d7e873996c861fa84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e407b56dab70a9bddd0b697f3c2fa590 = $(`<div id="html_e407b56dab70a9bddd0b697f3c2fa590" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_3547424be0ae577d7e873996c861fa84.setContent(html_e407b56dab70a9bddd0b697f3c2fa590);
+            
+        
+
+        marker_3e378dddb18b6918fd6a9d56e28657c9.bindPopup(popup_3547424be0ae577d7e873996c861fa84)
+        ;
+
+        
+    
+    
+            var marker_867cbf4b9b939512813c18e39d0a6aea = L.marker(
+                [41.39685427902232, 2.153248379667428],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b90182f3b4fd1a38da8a794046853747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b116a7a0ebbd1803950bc931b8e8fc = $(`<div id="html_16b116a7a0ebbd1803950bc931b8e8fc" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_b90182f3b4fd1a38da8a794046853747.setContent(html_16b116a7a0ebbd1803950bc931b8e8fc);
+            
+        
+
+        marker_867cbf4b9b939512813c18e39d0a6aea.bindPopup(popup_b90182f3b4fd1a38da8a794046853747)
+        ;
+
+        
+    
+    
+            var marker_e3c992675f51fc62ffc2549fbc157537 = L.marker(
+                [41.40109624722397, 2.1667321043746774],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_48ed76660db9ee72697e04751116761b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43162c10082bdc372bcdc039adc56b4e = $(`<div id="html_43162c10082bdc372bcdc039adc56b4e" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_48ed76660db9ee72697e04751116761b.setContent(html_43162c10082bdc372bcdc039adc56b4e);
+            
+        
+
+        marker_e3c992675f51fc62ffc2549fbc157537.bindPopup(popup_48ed76660db9ee72697e04751116761b)
+        ;
+
+        
+    
+    
+            var marker_233bde73e96e289931ae91a60dee1fc0 = L.marker(
+                [41.374914981276106, 2.1758747471979842],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_44bbf0c39b17140d3062151765bb0454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecaa48195e03e5ee3d17e0621e5ff744 = $(`<div id="html_ecaa48195e03e5ee3d17e0621e5ff744" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_44bbf0c39b17140d3062151765bb0454.setContent(html_ecaa48195e03e5ee3d17e0621e5ff744);
+            
+        
+
+        marker_233bde73e96e289931ae91a60dee1fc0.bindPopup(popup_44bbf0c39b17140d3062151765bb0454)
+        ;
+
+        
+    
+    
+            var marker_73d9e1760bb2eddf3eadc67997d4935e = L.marker(
+                [41.394704744479036, 2.1909249381651805],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1861850531087baab08dad504f929bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fca6678d41f8521a01d39690cdb6d4cf = $(`<div id="html_fca6678d41f8521a01d39690cdb6d4cf" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_1861850531087baab08dad504f929bcf.setContent(html_fca6678d41f8521a01d39690cdb6d4cf);
+            
+        
+
+        marker_73d9e1760bb2eddf3eadc67997d4935e.bindPopup(popup_1861850531087baab08dad504f929bcf)
+        ;
+
+        
+    
+    
+            var marker_a7dc5f7161aa1f49c65feb1bb888c38a = L.marker(
+                [41.40010018823065, 2.154156752456515],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_9883afaa3cefff358b36737db0794bbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_974c3d436b15560a73be305312f34bfa = $(`<div id="html_974c3d436b15560a73be305312f34bfa" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_9883afaa3cefff358b36737db0794bbb.setContent(html_974c3d436b15560a73be305312f34bfa);
+            
+        
+
+        marker_a7dc5f7161aa1f49c65feb1bb888c38a.bindPopup(popup_9883afaa3cefff358b36737db0794bbb)
+        ;
+
+        
+    
+    
+            var marker_cf56018e4c667e54484bff7d36d642dd = L.marker(
+                [41.403885045999665, 2.1730719513133763],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e83c891e464c1cb68995ecbfc416742a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c47043d08eb14af491bc2c271cd71bb8 = $(`<div id="html_c47043d08eb14af491bc2c271cd71bb8" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_e83c891e464c1cb68995ecbfc416742a.setContent(html_c47043d08eb14af491bc2c271cd71bb8);
+            
+        
+
+        marker_cf56018e4c667e54484bff7d36d642dd.bindPopup(popup_e83c891e464c1cb68995ecbfc416742a)
+        ;
+
+        
+    
+    
+            var marker_8f6e45b64879de15c407258313cdbc7b = L.marker(
+                [41.38842726681264, 2.1768366879147005],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b2c920413c18208363a47399138ca00d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05c31819c9f796c8f95ce6017af397aa = $(`<div id="html_05c31819c9f796c8f95ce6017af397aa" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_b2c920413c18208363a47399138ca00d.setContent(html_05c31819c9f796c8f95ce6017af397aa);
+            
+        
+
+        marker_8f6e45b64879de15c407258313cdbc7b.bindPopup(popup_b2c920413c18208363a47399138ca00d)
+        ;
+
+        
+    
+    
+            var marker_c55579bccfacea5fa38fbf7b5991c86e = L.marker(
+                [41.38178499538046, 2.185345176481677],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_6d03ffee6e4db067aaef1183f6bcc4f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee65020a0410f492d3496e5985af801b = $(`<div id="html_ee65020a0410f492d3496e5985af801b" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_6d03ffee6e4db067aaef1183f6bcc4f0.setContent(html_ee65020a0410f492d3496e5985af801b);
+            
+        
+
+        marker_c55579bccfacea5fa38fbf7b5991c86e.bindPopup(popup_6d03ffee6e4db067aaef1183f6bcc4f0)
+        ;
+
+        
+    
+    
+            var marker_9fa350467448caf9e0ba44ca7d8eaa6e = L.marker(
+                [41.38894333512813, 2.1963221277425147],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8e15f53e795f461fb718101cb4201628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9a0e665c018a02857d155d7abe5587a = $(`<div id="html_f9a0e665c018a02857d155d7abe5587a" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_8e15f53e795f461fb718101cb4201628.setContent(html_f9a0e665c018a02857d155d7abe5587a);
+            
+        
+
+        marker_9fa350467448caf9e0ba44ca7d8eaa6e.bindPopup(popup_8e15f53e795f461fb718101cb4201628)
+        ;
+
+        
+    
+    
+            var marker_999971cc0865d37acfecf12d1a082778 = L.marker(
+                [41.38503451962214, 2.1822236288199353],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_92606c7f6c05cf745763405589f5ad06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2deb00e4e22a1352788ce84e099fde7 = $(`<div id="html_b2deb00e4e22a1352788ce84e099fde7" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_92606c7f6c05cf745763405589f5ad06.setContent(html_b2deb00e4e22a1352788ce84e099fde7);
+            
+        
+
+        marker_999971cc0865d37acfecf12d1a082778.bindPopup(popup_92606c7f6c05cf745763405589f5ad06)
+        ;
+
+        
+    
+    
+            var marker_1553c1d17906605c3264a7aea1db9d2c = L.marker(
+                [41.4114102287462, 2.1900425249690714],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_23310db91c1dd88165b59c703aa73c5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f282a9669efda5dd3ca32a07dcce37 = $(`<div id="html_f9f282a9669efda5dd3ca32a07dcce37" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_23310db91c1dd88165b59c703aa73c5b.setContent(html_f9f282a9669efda5dd3ca32a07dcce37);
+            
+        
+
+        marker_1553c1d17906605c3264a7aea1db9d2c.bindPopup(popup_23310db91c1dd88165b59c703aa73c5b)
+        ;
+
+        
+    
+    
+            var marker_b6eea6d0765d6f199645929fbcde6a77 = L.marker(
+                [41.373301293265634, 2.1836465865404286],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_85a8ce737072e23bfd1a19ad2bd8928d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22a7896b0966f9003a8522d5eb756f14 = $(`<div id="html_22a7896b0966f9003a8522d5eb756f14" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_85a8ce737072e23bfd1a19ad2bd8928d.setContent(html_22a7896b0966f9003a8522d5eb756f14);
+            
+        
+
+        marker_b6eea6d0765d6f199645929fbcde6a77.bindPopup(popup_85a8ce737072e23bfd1a19ad2bd8928d)
+        ;
+
+        
+    
+    
+            var marker_d546c5c5a305397132ed46b095d3db77 = L.marker(
+                [41.38462442266076, 2.163929110211277],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_0240546724b1307d958c2e3350671e48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a20b9988b8c6b30f0b9006b1568c0907 = $(`<div id="html_a20b9988b8c6b30f0b9006b1568c0907" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_0240546724b1307d958c2e3350671e48.setContent(html_a20b9988b8c6b30f0b9006b1568c0907);
+            
+        
+
+        marker_d546c5c5a305397132ed46b095d3db77.bindPopup(popup_0240546724b1307d958c2e3350671e48)
+        ;
+
+        
+    
+    
+            var marker_72d258cab4b0b6a72fa8de1e72e78766 = L.marker(
+                [41.3796797795264, 2.1796362307886263],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_acbb755ab31949c604c8b8b1b2be4cb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_659965ddbebd73443f861ed721a3f67b = $(`<div id="html_659965ddbebd73443f861ed721a3f67b" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_acbb755ab31949c604c8b8b1b2be4cb5.setContent(html_659965ddbebd73443f861ed721a3f67b);
+            
+        
+
+        marker_72d258cab4b0b6a72fa8de1e72e78766.bindPopup(popup_acbb755ab31949c604c8b8b1b2be4cb5)
+        ;
+
+        
+    
+    
+            var marker_8f2742678da1a94d8744334ffb952ef8 = L.marker(
+                [41.368376680459775, 2.163728824640262],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3891746cd5d8336f821490c14f8ecf20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c879c51abff81af3647f45d0d5f2a9d5 = $(`<div id="html_c879c51abff81af3647f45d0d5f2a9d5" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_3891746cd5d8336f821490c14f8ecf20.setContent(html_c879c51abff81af3647f45d0d5f2a9d5);
+            
+        
+
+        marker_8f2742678da1a94d8744334ffb952ef8.bindPopup(popup_3891746cd5d8336f821490c14f8ecf20)
+        ;
+
+        
+    
+    
+            var marker_223f1b3ad074d3f5646a122ffd4c7594 = L.marker(
+                [41.355793588831766, 2.1540648102568087],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_320894ca0a46a69c3466a9f33f8fbe93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0f1922d1dc936bdd6af0bceea0a8f89 = $(`<div id="html_a0f1922d1dc936bdd6af0bceea0a8f89" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_320894ca0a46a69c3466a9f33f8fbe93.setContent(html_a0f1922d1dc936bdd6af0bceea0a8f89);
+            
+        
+
+        marker_223f1b3ad074d3f5646a122ffd4c7594.bindPopup(popup_320894ca0a46a69c3466a9f33f8fbe93)
+        ;
+
+        
+    
+    
+            var marker_ccd7821a507ecf5a1d44204a50e2f8f9 = L.marker(
+                [41.387211106599445, 2.1735542915054475],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bb0d9eafa9a54524b30b8ae7c7c42837 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aad9a59e37a896b0585731f924ddab1c = $(`<div id="html_aad9a59e37a896b0585731f924ddab1c" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_bb0d9eafa9a54524b30b8ae7c7c42837.setContent(html_aad9a59e37a896b0585731f924ddab1c);
+            
+        
+
+        marker_ccd7821a507ecf5a1d44204a50e2f8f9.bindPopup(popup_bb0d9eafa9a54524b30b8ae7c7c42837)
+        ;
+
+        
+    
+    
+            var marker_9813f4c604f07e1c043de098cf39efc4 = L.marker(
+                [41.39300315686314, 2.155371698132927],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_831a01e89ee31d989c131386f1625b81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5820edc66a01e34cf35c1d8b8b13cb43 = $(`<div id="html_5820edc66a01e34cf35c1d8b8b13cb43" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_831a01e89ee31d989c131386f1625b81.setContent(html_5820edc66a01e34cf35c1d8b8b13cb43);
+            
+        
+
+        marker_9813f4c604f07e1c043de098cf39efc4.bindPopup(popup_831a01e89ee31d989c131386f1625b81)
+        ;
+
+        
+    
+    
+            var marker_31e36a26aff3f8862a2bf1b0c06fb935 = L.marker(
+                [41.39830948700997, 2.1551553985199092],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4a8c138c27574099823cf3fd3bad13e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6c9dcd8802cee72f52e988cf8d98688 = $(`<div id="html_f6c9dcd8802cee72f52e988cf8d98688" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_4a8c138c27574099823cf3fd3bad13e3.setContent(html_f6c9dcd8802cee72f52e988cf8d98688);
+            
+        
+
+        marker_31e36a26aff3f8862a2bf1b0c06fb935.bindPopup(popup_4a8c138c27574099823cf3fd3bad13e3)
+        ;
+
+        
+    
+    
+            var marker_ba4f7c370851a956d5d4765e850b2547 = L.marker(
+                [41.38241324730536, 2.1701512809601207],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_98288343cd9d0f34402eb79c66c0045d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ac29aa9004854de23c7b160bf04e07b = $(`<div id="html_7ac29aa9004854de23c7b160bf04e07b" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_98288343cd9d0f34402eb79c66c0045d.setContent(html_7ac29aa9004854de23c7b160bf04e07b);
+            
+        
+
+        marker_ba4f7c370851a956d5d4765e850b2547.bindPopup(popup_98288343cd9d0f34402eb79c66c0045d)
+        ;
+
+        
+    
+    
+            var marker_add0eee5ca2b604ed298e36a1956bca1 = L.marker(
+                [41.38671361852656, 2.16971677882836],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ab092f267f613662b74264798c3e3dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_830014532c8c32d8a576d85279b13b03 = $(`<div id="html_830014532c8c32d8a576d85279b13b03" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_ab092f267f613662b74264798c3e3dd8.setContent(html_830014532c8c32d8a576d85279b13b03);
+            
+        
+
+        marker_add0eee5ca2b604ed298e36a1956bca1.bindPopup(popup_ab092f267f613662b74264798c3e3dd8)
+        ;
+
+        
+    
+    
+            var marker_f480220f5b33fc99fe09af75106b5bfe = L.marker(
+                [41.37919532854511, 2.1729022177809494],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c9a66dfb3e73e03d97a7818036489e73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fef5ed3b35841a51683731a55b59ee94 = $(`<div id="html_fef5ed3b35841a51683731a55b59ee94" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_c9a66dfb3e73e03d97a7818036489e73.setContent(html_fef5ed3b35841a51683731a55b59ee94);
+            
+        
+
+        marker_f480220f5b33fc99fe09af75106b5bfe.bindPopup(popup_c9a66dfb3e73e03d97a7818036489e73)
+        ;
+
+        
+    
+    
+            var marker_13bc4feaf4cd733d3eacf1b09ca923b7 = L.marker(
+                [41.39077448180181, 2.185866968027521],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4745827050525ed4ca669cad346eb72c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfe7b222f5cde9eb5d51cedd8da0ed3f = $(`<div id="html_cfe7b222f5cde9eb5d51cedd8da0ed3f" style="width: 100.0%; height: 100.0%;">Mercat de Sant Antoni</div>`)[0];
+                popup_4745827050525ed4ca669cad346eb72c.setContent(html_cfe7b222f5cde9eb5d51cedd8da0ed3f);
+            
+        
+
+        marker_13bc4feaf4cd733d3eacf1b09ca923b7.bindPopup(popup_4745827050525ed4ca669cad346eb72c)
+        ;
+
+        
+    
+    
+            var marker_524ffbbc774bd64e421bd13c05992b0d = L.marker(
+                [41.372560210338285, 2.1555794759332265],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8beaea753f752f92739e7b988bfeb866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31f41d7930905eb1dbf2c11ee95c178f = $(`<div id="html_31f41d7930905eb1dbf2c11ee95c178f" style="width: 100.0%; height: 100.0%;">Mercat de la Boqueria</div>`)[0];
+                popup_8beaea753f752f92739e7b988bfeb866.setContent(html_31f41d7930905eb1dbf2c11ee95c178f);
+            
+        
+
+        marker_524ffbbc774bd64e421bd13c05992b0d.bindPopup(popup_8beaea753f752f92739e7b988bfeb866)
+        ;
+
+        
+    
+    
+            var marker_8fa2c02e98da45a73dc843ccd730964c = L.marker(
+                [41.39318320425902, 2.1705183457677095],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_0d1b54797a2482d7c9eac509feaf4219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7929076c836aa708e249d29f223e102 = $(`<div id="html_f7929076c836aa708e249d29f223e102" style="width: 100.0%; height: 100.0%;">Mercat de Santa Caterina</div>`)[0];
+                popup_0d1b54797a2482d7c9eac509feaf4219.setContent(html_f7929076c836aa708e249d29f223e102);
+            
+        
+
+        marker_8fa2c02e98da45a73dc843ccd730964c.bindPopup(popup_0d1b54797a2482d7c9eac509feaf4219)
+        ;
+
+        
+    
+    
+            var marker_99b87f52b32fb18381669a8a8c4003b0 = L.marker(
+                [41.38786678062825, 2.1682021359384045],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a6ee1daf124490cc99901433e3515c39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2a52ceffe011dc9cbd74056c830076 = $(`<div id="html_cb2a52ceffe011dc9cbd74056c830076" style="width: 100.0%; height: 100.0%;">Mercat de la Concepció</div>`)[0];
+                popup_a6ee1daf124490cc99901433e3515c39.setContent(html_cb2a52ceffe011dc9cbd74056c830076);
+            
+        
+
+        marker_99b87f52b32fb18381669a8a8c4003b0.bindPopup(popup_a6ee1daf124490cc99901433e3515c39)
+        ;
+
+        
+    
+    
+            var marker_038680eb14c868b3df6aa08d7cd29daa = L.marker(
+                [41.40021091944431, 2.0238660817971255],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a42aa54e9536f2f0e8230c64dd9ce239 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9594aa91b5e8ae5922254942c41e49b = $(`<div id="html_a9594aa91b5e8ae5922254942c41e49b" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_a42aa54e9536f2f0e8230c64dd9ce239.setContent(html_a9594aa91b5e8ae5922254942c41e49b);
+            
+        
+
+        marker_038680eb14c868b3df6aa08d7cd29daa.bindPopup(popup_a42aa54e9536f2f0e8230c64dd9ce239)
+        ;
+
+        
+    
+    
+            var marker_215b99a087f7aec2a62b735b50ebd2bc = L.marker(
+                [41.39610907891821, 2.1931026988607742],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_04f82d2d28cfab0a8380990346906964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d404dca85ec52cb69deeef304a036e7f = $(`<div id="html_d404dca85ec52cb69deeef304a036e7f" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_04f82d2d28cfab0a8380990346906964.setContent(html_d404dca85ec52cb69deeef304a036e7f);
+            
+        
+
+        marker_215b99a087f7aec2a62b735b50ebd2bc.bindPopup(popup_04f82d2d28cfab0a8380990346906964)
+        ;
+
+        
+    
+    
+            var marker_ab55d5cb0f87021258b01b67cced9aba = L.marker(
+                [41.39869635572242, 2.215202661079618],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_eeb699e67dd10a7f1934c5700679a1fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4272b3db219580094bad23088b999fc6 = $(`<div id="html_4272b3db219580094bad23088b999fc6" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_eeb699e67dd10a7f1934c5700679a1fa.setContent(html_4272b3db219580094bad23088b999fc6);
+            
+        
+
+        marker_ab55d5cb0f87021258b01b67cced9aba.bindPopup(popup_eeb699e67dd10a7f1934c5700679a1fa)
+        ;
+
+        
+    
+    
+            var marker_44086d6005b160a77ab3cb787c608ed4 = L.marker(
+                [41.386926889241195, 2.1870712828650536],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1cc669087a790d6540afa548ee91028e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a4d2081ba8afa41d791bee288400cc1 = $(`<div id="html_6a4d2081ba8afa41d791bee288400cc1" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_1cc669087a790d6540afa548ee91028e.setContent(html_6a4d2081ba8afa41d791bee288400cc1);
+            
+        
+
+        marker_44086d6005b160a77ab3cb787c608ed4.bindPopup(popup_1cc669087a790d6540afa548ee91028e)
+        ;
+
+        
+    
+    
+            var marker_fea9c616dc98e548aa49141f0093a399 = L.marker(
+                [41.389539177221664, 2.1954789234525687],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_61e4360caa7d8b968e9e511f3de33a4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14549b3183f4941af08fbda76d082956 = $(`<div id="html_14549b3183f4941af08fbda76d082956" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_61e4360caa7d8b968e9e511f3de33a4a.setContent(html_14549b3183f4941af08fbda76d082956);
+            
+        
+
+        marker_fea9c616dc98e548aa49141f0093a399.bindPopup(popup_61e4360caa7d8b968e9e511f3de33a4a)
+        ;
+
+        
+    
+    
+            var marker_314d9ee9976f0cf3cdd691fb590e2714 = L.marker(
+                [41.39672799738574, 2.1806850959976254],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_6751a8a62805dba07548fa7465c2dd41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d5fd590b559a083c52e404da14d8d55 = $(`<div id="html_0d5fd590b559a083c52e404da14d8d55" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_6751a8a62805dba07548fa7465c2dd41.setContent(html_0d5fd590b559a083c52e404da14d8d55);
+            
+        
+
+        marker_314d9ee9976f0cf3cdd691fb590e2714.bindPopup(popup_6751a8a62805dba07548fa7465c2dd41)
+        ;
+
+        
+    
+    
+            var marker_6c3d134c69ff4e193b91ac159b7a31f6 = L.marker(
+                [41.39370908430956, 2.1685422197084803],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8db32dd2ae140c3cf55ea50c07463fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1ef814256aabcfde5beef3ef9560ac2 = $(`<div id="html_b1ef814256aabcfde5beef3ef9560ac2" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_8db32dd2ae140c3cf55ea50c07463fc3.setContent(html_b1ef814256aabcfde5beef3ef9560ac2);
+            
+        
+
+        marker_6c3d134c69ff4e193b91ac159b7a31f6.bindPopup(popup_8db32dd2ae140c3cf55ea50c07463fc3)
+        ;
+
+        
+    
+    
+            var marker_72a904213a7d1232baa5bdd3a855aa02 = L.marker(
+                [41.3752669349263, 2.1672516795114873],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d2074b1f005395e46c7300e89fe12730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c0a5df3812416c4f23e71be807f125b = $(`<div id="html_3c0a5df3812416c4f23e71be807f125b" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_d2074b1f005395e46c7300e89fe12730.setContent(html_3c0a5df3812416c4f23e71be807f125b);
+            
+        
+
+        marker_72a904213a7d1232baa5bdd3a855aa02.bindPopup(popup_d2074b1f005395e46c7300e89fe12730)
+        ;
+
+        
+    
+    
+            var marker_ec94dad34997ccf4cf6497be10321c8a = L.marker(
+                [41.398800126889654, 2.175092396527557],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_976245b4de2e818c7b1270f151533418 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c891ddc0baa7674bf26e748744c33b7a = $(`<div id="html_c891ddc0baa7674bf26e748744c33b7a" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_976245b4de2e818c7b1270f151533418.setContent(html_c891ddc0baa7674bf26e748744c33b7a);
+            
+        
+
+        marker_ec94dad34997ccf4cf6497be10321c8a.bindPopup(popup_976245b4de2e818c7b1270f151533418)
+        ;
+
+        
+    
+    
+            var marker_55923adfd0b2927948a07d7599ca3c6e = L.marker(
+                [41.3676127941337, 2.179651895004963],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_be14cee322de4c3ca580640fedb09c44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_834cb4bcf4f2d8f580e0fb7523893d4b = $(`<div id="html_834cb4bcf4f2d8f580e0fb7523893d4b" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_be14cee322de4c3ca580640fedb09c44.setContent(html_834cb4bcf4f2d8f580e0fb7523893d4b);
+            
+        
+
+        marker_55923adfd0b2927948a07d7599ca3c6e.bindPopup(popup_be14cee322de4c3ca580640fedb09c44)
+        ;
+
+        
+    
+    
+            var marker_5484fd6019674b0b1f8a50352d91aee9 = L.marker(
+                [41.400267323172145, 2.1766534645253532],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_376b50c8fd7bd8e913bb1252e8347d11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40aaab3f7d4920d3fc31adc3fd408197 = $(`<div id="html_40aaab3f7d4920d3fc31adc3fd408197" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_376b50c8fd7bd8e913bb1252e8347d11.setContent(html_40aaab3f7d4920d3fc31adc3fd408197);
+            
+        
+
+        marker_5484fd6019674b0b1f8a50352d91aee9.bindPopup(popup_376b50c8fd7bd8e913bb1252e8347d11)
+        ;
+
+        
+    
+    
+            var marker_915855995b4cc38e1bb873949e58d360 = L.marker(
+                [41.408106790422664, 2.1861205749725308],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4536844e70685772097f59a3da40b6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d3c08260b90190c7f770e96a380bcdf = $(`<div id="html_6d3c08260b90190c7f770e96a380bcdf" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_4536844e70685772097f59a3da40b6a6.setContent(html_6d3c08260b90190c7f770e96a380bcdf);
+            
+        
+
+        marker_915855995b4cc38e1bb873949e58d360.bindPopup(popup_4536844e70685772097f59a3da40b6a6)
+        ;
+
+        
+    
+    
+            var marker_3ca29df7014631aaa5ae5c426ac84d69 = L.marker(
+                [41.37959174399715, 2.1474469333751403],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_dfd2e071ca48bafb9e585d772fa92aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77cd9266eeb722bb135c3bf14bc48e77 = $(`<div id="html_77cd9266eeb722bb135c3bf14bc48e77" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_dfd2e071ca48bafb9e585d772fa92aa2.setContent(html_77cd9266eeb722bb135c3bf14bc48e77);
+            
+        
+
+        marker_3ca29df7014631aaa5ae5c426ac84d69.bindPopup(popup_dfd2e071ca48bafb9e585d772fa92aa2)
+        ;
+
+        
+    
+    
+            var marker_790f9238b902ffae11e10c7318ce96b7 = L.marker(
+                [41.40681625147576, 2.167971440610009],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5d3b4a47f44da73949cd8ccef033bed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251a9e5232e59ea8d6044f2156f32c73 = $(`<div id="html_251a9e5232e59ea8d6044f2156f32c73" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_5d3b4a47f44da73949cd8ccef033bed6.setContent(html_251a9e5232e59ea8d6044f2156f32c73);
+            
+        
+
+        marker_790f9238b902ffae11e10c7318ce96b7.bindPopup(popup_5d3b4a47f44da73949cd8ccef033bed6)
+        ;
+
+        
+    
+    
+            var marker_d2d8f678e898a6d949e8c3fed8afceb4 = L.marker(
+                [41.3945664000573, 2.167083263053588],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4268a7848e2ad7c4da35d5523189ae7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb5c764e80d69e6af68d2d248627a99c = $(`<div id="html_bb5c764e80d69e6af68d2d248627a99c" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_4268a7848e2ad7c4da35d5523189ae7f.setContent(html_bb5c764e80d69e6af68d2d248627a99c);
+            
+        
+
+        marker_d2d8f678e898a6d949e8c3fed8afceb4.bindPopup(popup_4268a7848e2ad7c4da35d5523189ae7f)
+        ;
+
+        
+    
+    
+            var marker_986f2087cf5108ebb012e7ec33a79603 = L.marker(
+                [41.380010621378354, 2.1705270615617076],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3b5537392ec54feb89f4b12a3c76fc33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0069752d942f7202e04dc834e1df4eba = $(`<div id="html_0069752d942f7202e04dc834e1df4eba" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_3b5537392ec54feb89f4b12a3c76fc33.setContent(html_0069752d942f7202e04dc834e1df4eba);
+            
+        
+
+        marker_986f2087cf5108ebb012e7ec33a79603.bindPopup(popup_3b5537392ec54feb89f4b12a3c76fc33)
+        ;
+
+        
+    
+    
+            var marker_0f7d7c61e3ecd28eb9dc178dfac70bc2 = L.marker(
+                [41.395006386488184, 2.1529897982971087],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3647087ea073b4cfad5040deaa39973a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a8d18f2dc26324aa9944039b1a55bf6 = $(`<div id="html_3a8d18f2dc26324aa9944039b1a55bf6" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_3647087ea073b4cfad5040deaa39973a.setContent(html_3a8d18f2dc26324aa9944039b1a55bf6);
+            
+        
+
+        marker_0f7d7c61e3ecd28eb9dc178dfac70bc2.bindPopup(popup_3647087ea073b4cfad5040deaa39973a)
+        ;
+
+        
+    
+    
+            var marker_3c967b8e5c140e661003a00b1d5b2ff5 = L.marker(
+                [41.39940758728307, 2.170326137168522],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_7c11faeb58e66e655e9acc1e64b8e269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a41a8b90121ba3b8f0bee82a1cd25b60 = $(`<div id="html_a41a8b90121ba3b8f0bee82a1cd25b60" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_7c11faeb58e66e655e9acc1e64b8e269.setContent(html_a41a8b90121ba3b8f0bee82a1cd25b60);
+            
+        
+
+        marker_3c967b8e5c140e661003a00b1d5b2ff5.bindPopup(popup_7c11faeb58e66e655e9acc1e64b8e269)
+        ;
+
+        
+    
+    
+            var marker_0d283798bb8c23dd8b7ac29cfa980068 = L.marker(
+                [41.39130120150844, 2.173911919094929],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b7f52dd376be3dafeebf162cc2bcd550 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ec7095acc717b6bf8f0e47455a86213 = $(`<div id="html_3ec7095acc717b6bf8f0e47455a86213" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_b7f52dd376be3dafeebf162cc2bcd550.setContent(html_3ec7095acc717b6bf8f0e47455a86213);
+            
+        
+
+        marker_0d283798bb8c23dd8b7ac29cfa980068.bindPopup(popup_b7f52dd376be3dafeebf162cc2bcd550)
+        ;
+
+        
+    
+    
+            var marker_5cffe3c5f6344ad140978931369ac6ad = L.marker(
+                [41.37825072484599, 2.1737536939161965],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_446275448f39e014976fb2a3a3a5474d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0c4542c15a35bbe35e402aaa96f2163 = $(`<div id="html_c0c4542c15a35bbe35e402aaa96f2163" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_446275448f39e014976fb2a3a3a5474d.setContent(html_c0c4542c15a35bbe35e402aaa96f2163);
+            
+        
+
+        marker_5cffe3c5f6344ad140978931369ac6ad.bindPopup(popup_446275448f39e014976fb2a3a3a5474d)
+        ;
+
+        
+    
+    
+            var marker_b6d1f086e3028c005873592282704f1f = L.marker(
+                [41.36916214749337, 2.1700808474456466],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4d3259c6df91e81f9b722b9384d6ddbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62cff1ec2f0b85b47337d2c35adefee1 = $(`<div id="html_62cff1ec2f0b85b47337d2c35adefee1" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_4d3259c6df91e81f9b722b9384d6ddbb.setContent(html_62cff1ec2f0b85b47337d2c35adefee1);
+            
+        
+
+        marker_b6d1f086e3028c005873592282704f1f.bindPopup(popup_4d3259c6df91e81f9b722b9384d6ddbb)
+        ;
+
+        
+    
+    
+            var marker_4e7b159774867a1ff3e548a11a42709f = L.marker(
+                [41.39380158577467, 2.189105627869636],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c4286847f4df35529c65022f01b92da3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5569c9a9ecfdacede7ebbf7b575b9d23 = $(`<div id="html_5569c9a9ecfdacede7ebbf7b575b9d23" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_c4286847f4df35529c65022f01b92da3.setContent(html_5569c9a9ecfdacede7ebbf7b575b9d23);
+            
+        
+
+        marker_4e7b159774867a1ff3e548a11a42709f.bindPopup(popup_c4286847f4df35529c65022f01b92da3)
+        ;
+
+        
+    
+    
+            var marker_7993ea70b981d4fdd8510ea0d2a620b4 = L.marker(
+                [41.38073468505066, 2.1821670453322857],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fa0e0d2bbc8625c80609dca078d2f95e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2768899673f43be1ac4493c956f07ef = $(`<div id="html_f2768899673f43be1ac4493c956f07ef" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_fa0e0d2bbc8625c80609dca078d2f95e.setContent(html_f2768899673f43be1ac4493c956f07ef);
+            
+        
+
+        marker_7993ea70b981d4fdd8510ea0d2a620b4.bindPopup(popup_fa0e0d2bbc8625c80609dca078d2f95e)
+        ;
+
+        
+    
+    
+            var marker_94c3859be083dad3669e4cd69aa13073 = L.marker(
+                [41.37888986633801, 2.177385773780794],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_af9b3ceaa57f3b73dc4d49679f37c16d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2201d9f4433a100a97af033826532c2c = $(`<div id="html_2201d9f4433a100a97af033826532c2c" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_af9b3ceaa57f3b73dc4d49679f37c16d.setContent(html_2201d9f4433a100a97af033826532c2c);
+            
+        
+
+        marker_94c3859be083dad3669e4cd69aa13073.bindPopup(popup_af9b3ceaa57f3b73dc4d49679f37c16d)
+        ;
+
+        
+    
+    
+            var marker_573a17ae29f67f9a8131be8c0f233d2c = L.marker(
+                [41.38771501550102, 2.1770445003048677],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e6d6ca09d4b470d875f697b79a27f117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dee39f4638fd8a0c6b972c555af0878 = $(`<div id="html_0dee39f4638fd8a0c6b972c555af0878" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_e6d6ca09d4b470d875f697b79a27f117.setContent(html_0dee39f4638fd8a0c6b972c555af0878);
+            
+        
+
+        marker_573a17ae29f67f9a8131be8c0f233d2c.bindPopup(popup_e6d6ca09d4b470d875f697b79a27f117)
+        ;
+
+        
+    
+    
+            var marker_ed1d12bba901dfb328f9278ff2d19916 = L.marker(
+                [41.4021567773252, 2.173266555133189],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_70fb8f9b060f33481c3b2d93731cdca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14479f72148963cbdb84d1a99b99444f = $(`<div id="html_14479f72148963cbdb84d1a99b99444f" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_70fb8f9b060f33481c3b2d93731cdca7.setContent(html_14479f72148963cbdb84d1a99b99444f);
+            
+        
+
+        marker_ed1d12bba901dfb328f9278ff2d19916.bindPopup(popup_70fb8f9b060f33481c3b2d93731cdca7)
+        ;
+
+        
+    
+    
+            var marker_43a7939a3f67853549b3c9d3c4ef1d1c = L.marker(
+                [41.37394601865699, 2.1594780505966895],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fd66db7b1da5874de5e16ec06372bb61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8e949bda787fa2b2578c54084919f1a = $(`<div id="html_c8e949bda787fa2b2578c54084919f1a" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_fd66db7b1da5874de5e16ec06372bb61.setContent(html_c8e949bda787fa2b2578c54084919f1a);
+            
+        
+
+        marker_43a7939a3f67853549b3c9d3c4ef1d1c.bindPopup(popup_fd66db7b1da5874de5e16ec06372bb61)
+        ;
+
+        
+    
+    
+            var marker_3fd21fa65a9f619568a4954aa8dfbf71 = L.marker(
+                [41.3846150800698, 2.1675487624061933],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8e5cb0f9fe1180736fa2ee96829cc867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_510b602a8287d8cdbcaa7c0bcbb145ae = $(`<div id="html_510b602a8287d8cdbcaa7c0bcbb145ae" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_8e5cb0f9fe1180736fa2ee96829cc867.setContent(html_510b602a8287d8cdbcaa7c0bcbb145ae);
+            
+        
+
+        marker_3fd21fa65a9f619568a4954aa8dfbf71.bindPopup(popup_8e5cb0f9fe1180736fa2ee96829cc867)
+        ;
+
+        
+    
+    
+            var marker_9a3148f5958d8bf25ca55c88e04880bd = L.marker(
+                [41.38542706426622, 2.1947229482400767],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_3e0fc32ffc6dcd91a089cf8172609177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_151cee7d46bb69f9dde4c2ba3ba2389e = $(`<div id="html_151cee7d46bb69f9dde4c2ba3ba2389e" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_3e0fc32ffc6dcd91a089cf8172609177.setContent(html_151cee7d46bb69f9dde4c2ba3ba2389e);
+            
+        
+
+        marker_9a3148f5958d8bf25ca55c88e04880bd.bindPopup(popup_3e0fc32ffc6dcd91a089cf8172609177)
+        ;
+
+        
+    
+    
+            var marker_b6225d0723887e60e1c815eb3264941c = L.marker(
+                [41.39190672707027, 2.1914940747078004],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bdebc825034bf08fa97e2d1e6bf3d700 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6976be45781ae2124161f4c4bba543fd = $(`<div id="html_6976be45781ae2124161f4c4bba543fd" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_bdebc825034bf08fa97e2d1e6bf3d700.setContent(html_6976be45781ae2124161f4c4bba543fd);
+            
+        
+
+        marker_b6225d0723887e60e1c815eb3264941c.bindPopup(popup_bdebc825034bf08fa97e2d1e6bf3d700)
+        ;
+
+        
+    
+    
+            var marker_ddcafc5bd327525cdf58ef746b83b796 = L.marker(
+                [41.38743037737007, 2.166720800938509],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_6e586b35ac2393428463fb97c6496a48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f17eb060a07e3689584298271312c617 = $(`<div id="html_f17eb060a07e3689584298271312c617" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_6e586b35ac2393428463fb97c6496a48.setContent(html_f17eb060a07e3689584298271312c617);
+            
+        
+
+        marker_ddcafc5bd327525cdf58ef746b83b796.bindPopup(popup_6e586b35ac2393428463fb97c6496a48)
+        ;
+
+        
+    
+    
+            var marker_fd12bb7fae3a563a50bc88800d0ee039 = L.marker(
+                [41.39609418756662, 2.1731251797067612],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c8093aadac9b16d522a0b4a4773ef23e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c005cbf1673bb671313727ee7e07e011 = $(`<div id="html_c005cbf1673bb671313727ee7e07e011" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_c8093aadac9b16d522a0b4a4773ef23e.setContent(html_c005cbf1673bb671313727ee7e07e011);
+            
+        
+
+        marker_fd12bb7fae3a563a50bc88800d0ee039.bindPopup(popup_c8093aadac9b16d522a0b4a4773ef23e)
+        ;
+
+        
+    
+    
+            var marker_813a72af7e23b93364425ab4b22bf716 = L.marker(
+                [41.39525345680671, 2.189784185588473],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f8942a48d18d36a92427e753d216332d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_487cd921e57cc4aad5add8d1efe0fd0d = $(`<div id="html_487cd921e57cc4aad5add8d1efe0fd0d" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_f8942a48d18d36a92427e753d216332d.setContent(html_487cd921e57cc4aad5add8d1efe0fd0d);
+            
+        
+
+        marker_813a72af7e23b93364425ab4b22bf716.bindPopup(popup_f8942a48d18d36a92427e753d216332d)
+        ;
+
+        
+    
+    
+            var marker_95d184c9477374a06fd8d80c806aecbf = L.marker(
+                [41.38948604293293, 2.1860487997963975],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5acacb371df83ce5ac96bb1bdbdd3964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1442d9c99c9bed5e06e1da33a899aff4 = $(`<div id="html_1442d9c99c9bed5e06e1da33a899aff4" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_5acacb371df83ce5ac96bb1bdbdd3964.setContent(html_1442d9c99c9bed5e06e1da33a899aff4);
+            
+        
+
+        marker_95d184c9477374a06fd8d80c806aecbf.bindPopup(popup_5acacb371df83ce5ac96bb1bdbdd3964)
+        ;
+
+        
+    
+    
+            var marker_a7ecd92675f9cff4ff9d992d3d71201c = L.marker(
+                [41.38851264880648, 2.168097870290673],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_744cb886e157ce13a21ce54c78ac77a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e62c3c5adb82e79e2ed292ea5a6b540 = $(`<div id="html_4e62c3c5adb82e79e2ed292ea5a6b540" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_744cb886e157ce13a21ce54c78ac77a0.setContent(html_4e62c3c5adb82e79e2ed292ea5a6b540);
+            
+        
+
+        marker_a7ecd92675f9cff4ff9d992d3d71201c.bindPopup(popup_744cb886e157ce13a21ce54c78ac77a0)
+        ;
+
+        
+    
+    
+            var marker_a5f6e5a4b33ff3828532062e2c88e856 = L.marker(
+                [41.40023954922356, 2.160876990673433],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_af4db875989b6f38c3de8e54392f03ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0c915662c4e0f4a40cea18f22d7a106 = $(`<div id="html_c0c915662c4e0f4a40cea18f22d7a106" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_af4db875989b6f38c3de8e54392f03ef.setContent(html_c0c915662c4e0f4a40cea18f22d7a106);
+            
+        
+
+        marker_a5f6e5a4b33ff3828532062e2c88e856.bindPopup(popup_af4db875989b6f38c3de8e54392f03ef)
+        ;
+
+        
+    
+    
+            var marker_df8b0e87ac1e7da1f942f2b6d181961f = L.marker(
+                [41.37718612879522, 2.19132039360232],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fe74b0f6715f578e9eea2568da1060d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_206845a9d8f099d61c42fd3b64fce10c = $(`<div id="html_206845a9d8f099d61c42fd3b64fce10c" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_fe74b0f6715f578e9eea2568da1060d0.setContent(html_206845a9d8f099d61c42fd3b64fce10c);
+            
+        
+
+        marker_df8b0e87ac1e7da1f942f2b6d181961f.bindPopup(popup_fe74b0f6715f578e9eea2568da1060d0)
+        ;
+
+        
+    
+    
+            var marker_918e9b74c4bf3c5eb013dbed5c915c76 = L.marker(
+                [41.39651408710767, 2.1696035670641196],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_be6b44bb12fbdaa3a94988ffeda58071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c58d27c1d66c7ba155a24d6d85323a50 = $(`<div id="html_c58d27c1d66c7ba155a24d6d85323a50" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_be6b44bb12fbdaa3a94988ffeda58071.setContent(html_c58d27c1d66c7ba155a24d6d85323a50);
+            
+        
+
+        marker_918e9b74c4bf3c5eb013dbed5c915c76.bindPopup(popup_be6b44bb12fbdaa3a94988ffeda58071)
+        ;
+
+        
+    
+    
+            var marker_bf2519428d6163fcbd028f17a8697344 = L.marker(
+                [41.382080725783545, 2.1700627292639143],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e7c2003c48cc41976232da7c2052d27e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64b2cff6ab2b84be7b40591c7b1caffe = $(`<div id="html_64b2cff6ab2b84be7b40591c7b1caffe" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_e7c2003c48cc41976232da7c2052d27e.setContent(html_64b2cff6ab2b84be7b40591c7b1caffe);
+            
+        
+
+        marker_bf2519428d6163fcbd028f17a8697344.bindPopup(popup_e7c2003c48cc41976232da7c2052d27e)
+        ;
+
+        
+    
+    
+            var marker_d53cc35afc1491eefca4893bd660bb54 = L.marker(
+                [41.387506481495635, 2.172293275581278],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_88e6bb79c72af4a26e81aa53edb5c9b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee3fa28253a68ba79254a185d9aede4d = $(`<div id="html_ee3fa28253a68ba79254a185d9aede4d" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_88e6bb79c72af4a26e81aa53edb5c9b1.setContent(html_ee3fa28253a68ba79254a185d9aede4d);
+            
+        
+
+        marker_d53cc35afc1491eefca4893bd660bb54.bindPopup(popup_88e6bb79c72af4a26e81aa53edb5c9b1)
+        ;
+
+        
+    
+    
+            var marker_27d94d712d4a73b81712ccf8f4b0e442 = L.marker(
+                [41.391830516125566, 2.165173783591647],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d5b20f8468bb32ff1a82447eadaca8f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b8500f61bb241d17ed9407739d3d91b = $(`<div id="html_4b8500f61bb241d17ed9407739d3d91b" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_d5b20f8468bb32ff1a82447eadaca8f5.setContent(html_4b8500f61bb241d17ed9407739d3d91b);
+            
+        
+
+        marker_27d94d712d4a73b81712ccf8f4b0e442.bindPopup(popup_d5b20f8468bb32ff1a82447eadaca8f5)
+        ;
+
+        
+    
+    
+            var marker_9365009cc4f733e1e7d05a5cdc8321ed = L.marker(
+                [41.40116017980886, 2.1715390590927868],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8d2ead751cce90baa901044deec96947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_062476923048b85e2aeb17655e130e6c = $(`<div id="html_062476923048b85e2aeb17655e130e6c" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_8d2ead751cce90baa901044deec96947.setContent(html_062476923048b85e2aeb17655e130e6c);
+            
+        
+
+        marker_9365009cc4f733e1e7d05a5cdc8321ed.bindPopup(popup_8d2ead751cce90baa901044deec96947)
+        ;
+
+        
+    
+    
+            var marker_fee3746a53e7141ef9271f75c00355d8 = L.marker(
+                [41.375539499937986, 2.1780467518374076],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f29aa5b1131ce738c227e4ca6e07e186 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ad8b425d9163f51cf403ecb376a20b6 = $(`<div id="html_1ad8b425d9163f51cf403ecb376a20b6" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_f29aa5b1131ce738c227e4ca6e07e186.setContent(html_1ad8b425d9163f51cf403ecb376a20b6);
+            
+        
+
+        marker_fee3746a53e7141ef9271f75c00355d8.bindPopup(popup_f29aa5b1131ce738c227e4ca6e07e186)
+        ;
+
+        
+    
+    
+            var marker_bc921830b574fa99df78147b6911b57b = L.marker(
+                [41.39306087959265, 2.178308508077556],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_85b3990682af2fe4710153481185a5eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f511c68e5c5dae8b057fffe08577eb3 = $(`<div id="html_6f511c68e5c5dae8b057fffe08577eb3" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_85b3990682af2fe4710153481185a5eb.setContent(html_6f511c68e5c5dae8b057fffe08577eb3);
+            
+        
+
+        marker_bc921830b574fa99df78147b6911b57b.bindPopup(popup_85b3990682af2fe4710153481185a5eb)
+        ;
+
+        
+    
+    
+            var marker_4f83d0f445e9bc7d898c84cf6f1799d6 = L.marker(
+                [41.38941934398437, 2.175760955912527],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c5fca4b625f7524700e371c6b415fd09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f97c80ab966969a4b16d645203848dcd = $(`<div id="html_f97c80ab966969a4b16d645203848dcd" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_c5fca4b625f7524700e371c6b415fd09.setContent(html_f97c80ab966969a4b16d645203848dcd);
+            
+        
+
+        marker_4f83d0f445e9bc7d898c84cf6f1799d6.bindPopup(popup_c5fca4b625f7524700e371c6b415fd09)
+        ;
+
+        
+    
+    
+            var marker_42e1ca370ba5ab2a98189867399fbe1f = L.marker(
+                [41.38739542514278, 2.1930667062541076],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4619ef2126caeae845c05c10e58a0a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b25d9eec557a9e0970e8cdc7b31175fa = $(`<div id="html_b25d9eec557a9e0970e8cdc7b31175fa" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_4619ef2126caeae845c05c10e58a0a59.setContent(html_b25d9eec557a9e0970e8cdc7b31175fa);
+            
+        
+
+        marker_42e1ca370ba5ab2a98189867399fbe1f.bindPopup(popup_4619ef2126caeae845c05c10e58a0a59)
+        ;
+
+        
+    
+    
+            var marker_1cefb32c7576c74fe23eaf76c556f498 = L.marker(
+                [41.3914280384987, 2.1947875008383924],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_7717b0e9254f7f958668adea39cdaa2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df826cecc1383605a67d75b3178aad8a = $(`<div id="html_df826cecc1383605a67d75b3178aad8a" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_7717b0e9254f7f958668adea39cdaa2e.setContent(html_df826cecc1383605a67d75b3178aad8a);
+            
+        
+
+        marker_1cefb32c7576c74fe23eaf76c556f498.bindPopup(popup_7717b0e9254f7f958668adea39cdaa2e)
+        ;
+
+        
+    
+    
+            var marker_2cdfb1dcc295b1bab2057c7e00b85c2a = L.marker(
+                [41.385935262363354, 2.1857445109440277],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b1a29c57d6951101b36389b36a9a411e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96651f23149cc3b954b6f9ea211037b5 = $(`<div id="html_96651f23149cc3b954b6f9ea211037b5" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_b1a29c57d6951101b36389b36a9a411e.setContent(html_96651f23149cc3b954b6f9ea211037b5);
+            
+        
+
+        marker_2cdfb1dcc295b1bab2057c7e00b85c2a.bindPopup(popup_b1a29c57d6951101b36389b36a9a411e)
+        ;
+
+        
+    
+    
+            var marker_1280f70e1d6d6e7c0cc47f0b39a1942c = L.marker(
+                [41.37865522053968, 2.159077812648891],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_38fc2c48d6e10b59a8d6f561171561ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8134b5d1ca9ba4478e0c8d5607bf868 = $(`<div id="html_f8134b5d1ca9ba4478e0c8d5607bf868" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_38fc2c48d6e10b59a8d6f561171561ab.setContent(html_f8134b5d1ca9ba4478e0c8d5607bf868);
+            
+        
+
+        marker_1280f70e1d6d6e7c0cc47f0b39a1942c.bindPopup(popup_38fc2c48d6e10b59a8d6f561171561ab)
+        ;
+
+        
+    
+    
+            var marker_2c4b2220dd628d6173fa331ca60dc357 = L.marker(
+                [41.38072909596334, 2.00579456391739],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b5468f22f1c924f3745002bc0f1b10af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563250f54c8c35cdb7d98ba30d6b1c90 = $(`<div id="html_563250f54c8c35cdb7d98ba30d6b1c90" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_b5468f22f1c924f3745002bc0f1b10af.setContent(html_563250f54c8c35cdb7d98ba30d6b1c90);
+            
+        
+
+        marker_2c4b2220dd628d6173fa331ca60dc357.bindPopup(popup_b5468f22f1c924f3745002bc0f1b10af)
+        ;
+
+        
+    
+    
+            var marker_990dc9d6d215e345a8e209c770e6c947 = L.marker(
+                [41.38399115350159, 2.1749549211200843],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_10af7bdaa94fa5e883b71ecb535ffeac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d918555bf85d5e9f1848e0cb4498eb09 = $(`<div id="html_d918555bf85d5e9f1848e0cb4498eb09" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_10af7bdaa94fa5e883b71ecb535ffeac.setContent(html_d918555bf85d5e9f1848e0cb4498eb09);
+            
+        
+
+        marker_990dc9d6d215e345a8e209c770e6c947.bindPopup(popup_10af7bdaa94fa5e883b71ecb535ffeac)
+        ;
+
+        
+    
+    
+            var marker_a0ae64d18c244dd73ddf417516fcd2b3 = L.marker(
+                [41.384166760159275, 2.158881621078887],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a94127604c0d28ff9ec4bce8b2f5a495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4de0076f88da4e8d9ed84dd3d0631f9 = $(`<div id="html_b4de0076f88da4e8d9ed84dd3d0631f9" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_a94127604c0d28ff9ec4bce8b2f5a495.setContent(html_b4de0076f88da4e8d9ed84dd3d0631f9);
+            
+        
+
+        marker_a0ae64d18c244dd73ddf417516fcd2b3.bindPopup(popup_a94127604c0d28ff9ec4bce8b2f5a495)
+        ;
+
+        
+    
+    
+            var marker_7ba24370b6bebc28568462d136788d44 = L.marker(
+                [41.394348598531515, 2.1613191039195057],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5b1a74a7f3f5dc64bd8373307ada8c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2875f716c43d5f49430ae3c85b173e09 = $(`<div id="html_2875f716c43d5f49430ae3c85b173e09" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_5b1a74a7f3f5dc64bd8373307ada8c5f.setContent(html_2875f716c43d5f49430ae3c85b173e09);
+            
+        
+
+        marker_7ba24370b6bebc28568462d136788d44.bindPopup(popup_5b1a74a7f3f5dc64bd8373307ada8c5f)
+        ;
+
+        
+    
+    
+            var marker_edb6223449b5118ed7ddf71a24c2c8aa = L.marker(
+                [41.40738764522995, 2.1721971798408015],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8fa051a237de3f6c022547057cb91eed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c3a60e1e30926f07453a39c0f42ec9a = $(`<div id="html_3c3a60e1e30926f07453a39c0f42ec9a" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_8fa051a237de3f6c022547057cb91eed.setContent(html_3c3a60e1e30926f07453a39c0f42ec9a);
+            
+        
+
+        marker_edb6223449b5118ed7ddf71a24c2c8aa.bindPopup(popup_8fa051a237de3f6c022547057cb91eed)
+        ;
+
+        
+    
+    
+            var marker_05e52c01104478781aeb312b13c00434 = L.marker(
+                [41.408327740389616, 2.1788452280731114],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_9093616e3b9554e5f70033a3b4b3833e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d19f5d23c85afd240b5f5eaa710b8b8 = $(`<div id="html_4d19f5d23c85afd240b5f5eaa710b8b8" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_9093616e3b9554e5f70033a3b4b3833e.setContent(html_4d19f5d23c85afd240b5f5eaa710b8b8);
+            
+        
+
+        marker_05e52c01104478781aeb312b13c00434.bindPopup(popup_9093616e3b9554e5f70033a3b4b3833e)
+        ;
+
+        
+    
+    
+            var marker_7c961df5180f7b714c5d272c615ddb00 = L.marker(
+                [41.381468016307814, 2.173031318428591],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d9c24e7f3930ad3dbbd28e89fd9a8ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1548ce23e18a3879e7477c22aac27c50 = $(`<div id="html_1548ce23e18a3879e7477c22aac27c50" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_d9c24e7f3930ad3dbbd28e89fd9a8ee6.setContent(html_1548ce23e18a3879e7477c22aac27c50);
+            
+        
+
+        marker_7c961df5180f7b714c5d272c615ddb00.bindPopup(popup_d9c24e7f3930ad3dbbd28e89fd9a8ee6)
+        ;
+
+        
+    
+    
+            var marker_f4893bac4f3dd85a38995339cc3929df = L.marker(
+                [41.384643094872146, 2.1798808969578745],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b201a0efa8b64bc051e1f47a47cda1f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c8d58063f1c415dd19c9db502d5f324 = $(`<div id="html_0c8d58063f1c415dd19c9db502d5f324" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_b201a0efa8b64bc051e1f47a47cda1f9.setContent(html_0c8d58063f1c415dd19c9db502d5f324);
+            
+        
+
+        marker_f4893bac4f3dd85a38995339cc3929df.bindPopup(popup_b201a0efa8b64bc051e1f47a47cda1f9)
+        ;
+
+        
+    
+    
+            var marker_c8505fc24c84eda51730645fb8835278 = L.marker(
+                [41.403723070948, 2.173993409303753],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_06056c2ff3e079ff80b4ada8b8fac3f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_413069d2d843205de2a4740a66359154 = $(`<div id="html_413069d2d843205de2a4740a66359154" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_06056c2ff3e079ff80b4ada8b8fac3f9.setContent(html_413069d2d843205de2a4740a66359154);
+            
+        
+
+        marker_c8505fc24c84eda51730645fb8835278.bindPopup(popup_06056c2ff3e079ff80b4ada8b8fac3f9)
+        ;
+
+        
+    
+    
+            var marker_6122857025f9a4b4a62d48d010f73af2 = L.marker(
+                [41.39137117984508, 2.1744439483657745],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d4806d7420c05db0d26c0d849d0f5354 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5df6edf09d7223484ce36b331b19f6e = $(`<div id="html_b5df6edf09d7223484ce36b331b19f6e" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_d4806d7420c05db0d26c0d849d0f5354.setContent(html_b5df6edf09d7223484ce36b331b19f6e);
+            
+        
+
+        marker_6122857025f9a4b4a62d48d010f73af2.bindPopup(popup_d4806d7420c05db0d26c0d849d0f5354)
+        ;
+
+        
+    
+    
+            var marker_bb2075289ccde342c8f00323628f9010 = L.marker(
+                [41.395722338221475, 2.174107560433077],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8a0b09da7e0a8719581eb1deee531370 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6b17079093191152e4ffa7d7b6b1cc2 = $(`<div id="html_d6b17079093191152e4ffa7d7b6b1cc2" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_8a0b09da7e0a8719581eb1deee531370.setContent(html_d6b17079093191152e4ffa7d7b6b1cc2);
+            
+        
+
+        marker_bb2075289ccde342c8f00323628f9010.bindPopup(popup_8a0b09da7e0a8719581eb1deee531370)
+        ;
+
+        
+    
+    
+            var marker_4c2b54bb54a290bacdb19ed9a2aa28c3 = L.marker(
+                [41.38135981925105, 2.162509353668463],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e4c35a281f78ae69a678cfb8894da9b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7044c385d8cb745780866763b6f2e6b7 = $(`<div id="html_7044c385d8cb745780866763b6f2e6b7" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_e4c35a281f78ae69a678cfb8894da9b3.setContent(html_7044c385d8cb745780866763b6f2e6b7);
+            
+        
+
+        marker_4c2b54bb54a290bacdb19ed9a2aa28c3.bindPopup(popup_e4c35a281f78ae69a678cfb8894da9b3)
+        ;
+
+        
+    
+    
+            var marker_d2e3c0b017b16538d44f0d49ca2cd324 = L.marker(
+                [41.37964911490494, 2.184813190566839],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_76ceca439d904ea41ac408cda48cf136 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96bed677f6763518f1993be1ca1bf26b = $(`<div id="html_96bed677f6763518f1993be1ca1bf26b" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_76ceca439d904ea41ac408cda48cf136.setContent(html_96bed677f6763518f1993be1ca1bf26b);
+            
+        
+
+        marker_d2e3c0b017b16538d44f0d49ca2cd324.bindPopup(popup_76ceca439d904ea41ac408cda48cf136)
+        ;
+
+        
+    
+    
+            var marker_03513d6a042c3e568f2d0f58b439e49c = L.marker(
+                [41.392161637962076, 2.1723456386858744],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f56af709b77953fc2657b7fc10018db3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ee417116f336954f240d33cd0808d5 = $(`<div id="html_d5ee417116f336954f240d33cd0808d5" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_f56af709b77953fc2657b7fc10018db3.setContent(html_d5ee417116f336954f240d33cd0808d5);
+            
+        
+
+        marker_03513d6a042c3e568f2d0f58b439e49c.bindPopup(popup_f56af709b77953fc2657b7fc10018db3)
+        ;
+
+        
+    
+    
+            var marker_843428c39dd30ba33cafe98b19adc5fb = L.marker(
+                [41.39231906859578, 2.2022441330521874],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b2c86027ec2ebff133276792e26858ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af9cae9128829741bd62f77db329eea4 = $(`<div id="html_af9cae9128829741bd62f77db329eea4" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_b2c86027ec2ebff133276792e26858ab.setContent(html_af9cae9128829741bd62f77db329eea4);
+            
+        
+
+        marker_843428c39dd30ba33cafe98b19adc5fb.bindPopup(popup_b2c86027ec2ebff133276792e26858ab)
+        ;
+
+        
+    
+    
+            var marker_2f9aaedac37c3ebd8f21492ee7c75f00 = L.marker(
+                [41.39152446527772, 2.184741955269374],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8a2dcbabc7b719190ecf402f41ad5043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5eaf4f57db7315323c745c958152730 = $(`<div id="html_b5eaf4f57db7315323c745c958152730" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_8a2dcbabc7b719190ecf402f41ad5043.setContent(html_b5eaf4f57db7315323c745c958152730);
+            
+        
+
+        marker_2f9aaedac37c3ebd8f21492ee7c75f00.bindPopup(popup_8a2dcbabc7b719190ecf402f41ad5043)
+        ;
+
+        
+    
+    
+            var marker_9fd50dd54286496470e9983631a8c7a1 = L.marker(
+                [41.40425388346842, 2.1713540357344656],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_206eb1bb6d1ca5ec83bf4bd5f8f18e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91fa2d07bbfbc7cf2fbd82eab572e970 = $(`<div id="html_91fa2d07bbfbc7cf2fbd82eab572e970" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_206eb1bb6d1ca5ec83bf4bd5f8f18e35.setContent(html_91fa2d07bbfbc7cf2fbd82eab572e970);
+            
+        
+
+        marker_9fd50dd54286496470e9983631a8c7a1.bindPopup(popup_206eb1bb6d1ca5ec83bf4bd5f8f18e35)
+        ;
+
+        
+    
+    
+            var marker_68164636ab0fa4a234193a11ece15074 = L.marker(
+                [41.39449153883629, 2.1693250088258895],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_183df6229b16e6587e53d7a4624f0d34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fbdc3bf353d90c9abfa0e4321423eed = $(`<div id="html_9fbdc3bf353d90c9abfa0e4321423eed" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_183df6229b16e6587e53d7a4624f0d34.setContent(html_9fbdc3bf353d90c9abfa0e4321423eed);
+            
+        
+
+        marker_68164636ab0fa4a234193a11ece15074.bindPopup(popup_183df6229b16e6587e53d7a4624f0d34)
+        ;
+
+        
+    
+    
+            var marker_90f9b835c7cab2bf8760c69a3f6708f5 = L.marker(
+                [41.39825740907827, 2.197867935792541],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f0607740fb6fd32f80f61080348b5bc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c27f4a03f6bccb4ba01ed47d1fd63d2 = $(`<div id="html_3c27f4a03f6bccb4ba01ed47d1fd63d2" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_f0607740fb6fd32f80f61080348b5bc7.setContent(html_3c27f4a03f6bccb4ba01ed47d1fd63d2);
+            
+        
+
+        marker_90f9b835c7cab2bf8760c69a3f6708f5.bindPopup(popup_f0607740fb6fd32f80f61080348b5bc7)
+        ;
+
+        
+    
+    
+            var marker_21b61568766c090d54e692d49b13a719 = L.marker(
+                [41.41597625880864, 2.189653029648554],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_827c40a2b9e78e8520f7707b9a0b280c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5e61e1b88d6e4f907e51a40e0cac7a5 = $(`<div id="html_c5e61e1b88d6e4f907e51a40e0cac7a5" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_827c40a2b9e78e8520f7707b9a0b280c.setContent(html_c5e61e1b88d6e4f907e51a40e0cac7a5);
+            
+        
+
+        marker_21b61568766c090d54e692d49b13a719.bindPopup(popup_827c40a2b9e78e8520f7707b9a0b280c)
+        ;
+
+        
+    
+    
+            var marker_69a17806747c3b05c156dc7043ba2718 = L.marker(
+                [41.38007581891767, 2.168840503300945],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fb2ec96f2178ded3bb12b5fb91c775c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d19797bdad7527e9f8c67c58fe643d1d = $(`<div id="html_d19797bdad7527e9f8c67c58fe643d1d" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_fb2ec96f2178ded3bb12b5fb91c775c1.setContent(html_d19797bdad7527e9f8c67c58fe643d1d);
+            
+        
+
+        marker_69a17806747c3b05c156dc7043ba2718.bindPopup(popup_fb2ec96f2178ded3bb12b5fb91c775c1)
+        ;
+
+        
+    
+    
+            var marker_93f1c1d2e129d2e0c7a74f0dd4ae74be = L.marker(
+                [41.399524517656886, 2.1682153436835017],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_49d6e803af67385c782396f4830b2a42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45f6840003a72340564ff9fef256f31f = $(`<div id="html_45f6840003a72340564ff9fef256f31f" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_49d6e803af67385c782396f4830b2a42.setContent(html_45f6840003a72340564ff9fef256f31f);
+            
+        
+
+        marker_93f1c1d2e129d2e0c7a74f0dd4ae74be.bindPopup(popup_49d6e803af67385c782396f4830b2a42)
+        ;
+
+        
+    
+    
+            var marker_95fa02f4c18a24b77f2e2ab278d59556 = L.marker(
+                [41.39257495995544, 2.177874938859878],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8524ee94e348ec0459b38017cba4caa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ea5483416ce6635091d22576241749 = $(`<div id="html_e4ea5483416ce6635091d22576241749" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_8524ee94e348ec0459b38017cba4caa9.setContent(html_e4ea5483416ce6635091d22576241749);
+            
+        
+
+        marker_95fa02f4c18a24b77f2e2ab278d59556.bindPopup(popup_8524ee94e348ec0459b38017cba4caa9)
+        ;
+
+        
+    
+    
+            var marker_93c45845b59408b5b450acdb0ba4f564 = L.marker(
+                [41.41008100899569, 2.1566488384987834],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_49be5ef0e673eb22ea56810009b7e6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d00d27392f9b7655d3672d6b565c8074 = $(`<div id="html_d00d27392f9b7655d3672d6b565c8074" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_49be5ef0e673eb22ea56810009b7e6f0.setContent(html_d00d27392f9b7655d3672d6b565c8074);
+            
+        
+
+        marker_93c45845b59408b5b450acdb0ba4f564.bindPopup(popup_49be5ef0e673eb22ea56810009b7e6f0)
+        ;
+
+        
+    
+    
+            var marker_2b8af0a65af0ef6f3fe69963810c4e59 = L.marker(
+                [41.388146108710735, 2.179809262577152],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f5d81707846fef1a9a0cadbfe62ba4df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2f03257cb1a0662f96ffe3a3dcd8fe = $(`<div id="html_be2f03257cb1a0662f96ffe3a3dcd8fe" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_f5d81707846fef1a9a0cadbfe62ba4df.setContent(html_be2f03257cb1a0662f96ffe3a3dcd8fe);
+            
+        
+
+        marker_2b8af0a65af0ef6f3fe69963810c4e59.bindPopup(popup_f5d81707846fef1a9a0cadbfe62ba4df)
+        ;
+
+        
+    
+    
+            var marker_31f75b967539b632a62f2f2abb3a9767 = L.marker(
+                [41.38209416020502, 2.174802149846268],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4e698fc246781192a284fe790123cd38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d26b30c303dd201b826a765f52cfa62e = $(`<div id="html_d26b30c303dd201b826a765f52cfa62e" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_4e698fc246781192a284fe790123cd38.setContent(html_d26b30c303dd201b826a765f52cfa62e);
+            
+        
+
+        marker_31f75b967539b632a62f2f2abb3a9767.bindPopup(popup_4e698fc246781192a284fe790123cd38)
+        ;
+
+        
+    
+    
+            var marker_96c07ac12a0840ec0316492ce2c83f18 = L.marker(
+                [41.38679877325461, 2.1657075643525188],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4576a710eb9b82e74a4df04cdb90a17e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9216412ee90639ac84e05736155a3c22 = $(`<div id="html_9216412ee90639ac84e05736155a3c22" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_4576a710eb9b82e74a4df04cdb90a17e.setContent(html_9216412ee90639ac84e05736155a3c22);
+            
+        
+
+        marker_96c07ac12a0840ec0316492ce2c83f18.bindPopup(popup_4576a710eb9b82e74a4df04cdb90a17e)
+        ;
+
+        
+    
+    
+            var marker_9b0eceb41f0057278dd2f4f0aeb940af = L.marker(
+                [41.384383919920815, 2.1770552902387985],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_648067afbc41426bde3491c2f8cb3af8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b436b7969ebd07a52fe9e1b10b92282d = $(`<div id="html_b436b7969ebd07a52fe9e1b10b92282d" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_648067afbc41426bde3491c2f8cb3af8.setContent(html_b436b7969ebd07a52fe9e1b10b92282d);
+            
+        
+
+        marker_9b0eceb41f0057278dd2f4f0aeb940af.bindPopup(popup_648067afbc41426bde3491c2f8cb3af8)
+        ;
+
+        
+    
+    
+            var marker_9e932fc2d4ceafd57dfdbc5b67f29d85 = L.marker(
+                [41.368383624446686, 2.177369216297548],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c06b7ab371e2b50c4c31dd142b94f4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d72ba441e2764c7710c5563380246b = $(`<div id="html_19d72ba441e2764c7710c5563380246b" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_c06b7ab371e2b50c4c31dd142b94f4a5.setContent(html_19d72ba441e2764c7710c5563380246b);
+            
+        
+
+        marker_9e932fc2d4ceafd57dfdbc5b67f29d85.bindPopup(popup_c06b7ab371e2b50c4c31dd142b94f4a5)
+        ;
+
+        
+    
+    
+            var marker_f88199ce79f67ece756524f8c86ba6bc = L.marker(
+                [41.4053198417715, 2.173186886537849],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5259acc4bf2172855fd5055bd0b0e7bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58f29906100a28c597b7d3ff59b454be = $(`<div id="html_58f29906100a28c597b7d3ff59b454be" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_5259acc4bf2172855fd5055bd0b0e7bb.setContent(html_58f29906100a28c597b7d3ff59b454be);
+            
+        
+
+        marker_f88199ce79f67ece756524f8c86ba6bc.bindPopup(popup_5259acc4bf2172855fd5055bd0b0e7bb)
+        ;
+
+        
+    
+    
+            var marker_d29d1a87f2f90b112ef61aacab6c6c7a = L.marker(
+                [41.403634732149534, 2.1690040944909335],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_7b3ca750b5b664583de65c18b6093018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f76211ea4188ad87c9f47856d6e3460 = $(`<div id="html_1f76211ea4188ad87c9f47856d6e3460" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_7b3ca750b5b664583de65c18b6093018.setContent(html_1f76211ea4188ad87c9f47856d6e3460);
+            
+        
+
+        marker_d29d1a87f2f90b112ef61aacab6c6c7a.bindPopup(popup_7b3ca750b5b664583de65c18b6093018)
+        ;
+
+        
+    
+    
+            var marker_43f4eece58a0175db245f4ba1fe5c7e0 = L.marker(
+                [41.419860897115186, 2.171725913691484],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4c77d46a92c3e6868899e35cdaecd4ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c26f8ce3e1b64f762ed23dd468a78b = $(`<div id="html_08c26f8ce3e1b64f762ed23dd468a78b" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_4c77d46a92c3e6868899e35cdaecd4ae.setContent(html_08c26f8ce3e1b64f762ed23dd468a78b);
+            
+        
+
+        marker_43f4eece58a0175db245f4ba1fe5c7e0.bindPopup(popup_4c77d46a92c3e6868899e35cdaecd4ae)
+        ;
+
+        
+    
+    
+            var marker_e80018aaadd596910f92a0a4de76821e = L.marker(
+                [41.37858591372028, 2.154294875187453],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_83a2b1b45b648433a6b9fad22c84f513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77dcfb8e42a9248323d2525a58a83974 = $(`<div id="html_77dcfb8e42a9248323d2525a58a83974" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_83a2b1b45b648433a6b9fad22c84f513.setContent(html_77dcfb8e42a9248323d2525a58a83974);
+            
+        
+
+        marker_e80018aaadd596910f92a0a4de76821e.bindPopup(popup_83a2b1b45b648433a6b9fad22c84f513)
+        ;
+
+        
+    
+    
+            var marker_6d4cdd216e397981e39486b6bf2703c8 = L.marker(
+                [41.394913047458026, 2.181878761084648],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d99f40a551855a373f6f4d5964a71f76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb01eb05b4ec41c2a39da179b1e6ed04 = $(`<div id="html_bb01eb05b4ec41c2a39da179b1e6ed04" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_d99f40a551855a373f6f4d5964a71f76.setContent(html_bb01eb05b4ec41c2a39da179b1e6ed04);
+            
+        
+
+        marker_6d4cdd216e397981e39486b6bf2703c8.bindPopup(popup_d99f40a551855a373f6f4d5964a71f76)
+        ;
+
+        
+    
+    
+            var marker_3da6bc06ce1e918b868c1ae897027df4 = L.marker(
+                [41.39939649906845, 2.1657805328428377],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f73a0c799768b32e02bba9e2e78f517d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_072a10c4c8a5b0c05b7aab77b16fac74 = $(`<div id="html_072a10c4c8a5b0c05b7aab77b16fac74" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_f73a0c799768b32e02bba9e2e78f517d.setContent(html_072a10c4c8a5b0c05b7aab77b16fac74);
+            
+        
+
+        marker_3da6bc06ce1e918b868c1ae897027df4.bindPopup(popup_f73a0c799768b32e02bba9e2e78f517d)
+        ;
+
+        
+    
+    
+            var marker_e10b757b7d2b1eea9299f6cc1b7eb91f = L.marker(
+                [41.38380723742824, 2.1829070211853945],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bbccd54bb6e73a1ce499c912d1c37485 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdabb9a51af54f988356f4f9c7d95c64 = $(`<div id="html_cdabb9a51af54f988356f4f9c7d95c64" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_bbccd54bb6e73a1ce499c912d1c37485.setContent(html_cdabb9a51af54f988356f4f9c7d95c64);
+            
+        
+
+        marker_e10b757b7d2b1eea9299f6cc1b7eb91f.bindPopup(popup_bbccd54bb6e73a1ce499c912d1c37485)
+        ;
+
+        
+    
+    
+            var marker_f7d56b112400d34e6c505217d343ac5c = L.marker(
+                [41.3996612764191, 2.15799996223133],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_072f741b7eca62260832e8240ce38cbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f1c6addab831d5281e20d9c42b6f542 = $(`<div id="html_6f1c6addab831d5281e20d9c42b6f542" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_072f741b7eca62260832e8240ce38cbf.setContent(html_6f1c6addab831d5281e20d9c42b6f542);
+            
+        
+
+        marker_f7d56b112400d34e6c505217d343ac5c.bindPopup(popup_072f741b7eca62260832e8240ce38cbf)
+        ;
+
+        
+    
+    
+            var marker_e5a855b5e3afb646afc7c24313b3d89f = L.marker(
+                [41.39585124712569, 2.1485247323683394],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1241dbbae3e16cadb631e93f84deb375 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28ba59aeba501951e46bd94997880f7e = $(`<div id="html_28ba59aeba501951e46bd94997880f7e" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_1241dbbae3e16cadb631e93f84deb375.setContent(html_28ba59aeba501951e46bd94997880f7e);
+            
+        
+
+        marker_e5a855b5e3afb646afc7c24313b3d89f.bindPopup(popup_1241dbbae3e16cadb631e93f84deb375)
+        ;
+
+        
+    
+    
+            var marker_71600af483eb02e0723a7188cfb675b2 = L.marker(
+                [41.38384603135257, 2.180484490755437],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_78dbb5003dcca44e97652b8a753b6a20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7c1c7e0238de50009ff69fd491a017 = $(`<div id="html_3b7c1c7e0238de50009ff69fd491a017" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_78dbb5003dcca44e97652b8a753b6a20.setContent(html_3b7c1c7e0238de50009ff69fd491a017);
+            
+        
+
+        marker_71600af483eb02e0723a7188cfb675b2.bindPopup(popup_78dbb5003dcca44e97652b8a753b6a20)
+        ;
+
+        
+    
+    
+            var marker_e429b983617f0086b6f554e58b2d5bb9 = L.marker(
+                [41.3952383105751, 2.179515756137847],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b3a92d620d6bdee5e5b987a3e9b99f0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cd7771789fca339e63a886ad016f068 = $(`<div id="html_0cd7771789fca339e63a886ad016f068" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_b3a92d620d6bdee5e5b987a3e9b99f0f.setContent(html_0cd7771789fca339e63a886ad016f068);
+            
+        
+
+        marker_e429b983617f0086b6f554e58b2d5bb9.bindPopup(popup_b3a92d620d6bdee5e5b987a3e9b99f0f)
+        ;
+
+        
+    
+    
+            var marker_8fc8b3f3794795939147ce544f908989 = L.marker(
+                [41.39658876999332, 2.1678200049403253],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d89ad0c5de4895d88a77f6e009d8823f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42dded69c35010447d03c8ed29d276fd = $(`<div id="html_42dded69c35010447d03c8ed29d276fd" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_d89ad0c5de4895d88a77f6e009d8823f.setContent(html_42dded69c35010447d03c8ed29d276fd);
+            
+        
+
+        marker_8fc8b3f3794795939147ce544f908989.bindPopup(popup_d89ad0c5de4895d88a77f6e009d8823f)
+        ;
+
+        
+    
+    
+            var marker_ac601b0c92714555be1b0dae8b3375f5 = L.marker(
+                [41.38511229042595, 2.1747416686093155],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_0ddfbfc9c0c9ffc1e54259bb367b865b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a64629ded5da723847f1911f8bbf17b0 = $(`<div id="html_a64629ded5da723847f1911f8bbf17b0" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_0ddfbfc9c0c9ffc1e54259bb367b865b.setContent(html_a64629ded5da723847f1911f8bbf17b0);
+            
+        
+
+        marker_ac601b0c92714555be1b0dae8b3375f5.bindPopup(popup_0ddfbfc9c0c9ffc1e54259bb367b865b)
+        ;
+
+        
+    
+    
+            var marker_942e5d6aa2412d1d59a98d4eeb683db3 = L.marker(
+                [41.40029136670046, 2.167977630391804],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bf2d40988412968e86c1d4f627d2e555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb885e2f017c81cc2c0f7c36e8bdedfb = $(`<div id="html_bb885e2f017c81cc2c0f7c36e8bdedfb" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_bf2d40988412968e86c1d4f627d2e555.setContent(html_bb885e2f017c81cc2c0f7c36e8bdedfb);
+            
+        
+
+        marker_942e5d6aa2412d1d59a98d4eeb683db3.bindPopup(popup_bf2d40988412968e86c1d4f627d2e555)
+        ;
+
+        
+    
+    
+            var marker_2898b492feff4cbb002b522d4743b4cd = L.marker(
+                [41.38131696714354, 2.180090589420903],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_065572be0c545351c5dbc2a5808271b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82addd7d266d4d08c19631b994fb4bbf = $(`<div id="html_82addd7d266d4d08c19631b994fb4bbf" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_065572be0c545351c5dbc2a5808271b4.setContent(html_82addd7d266d4d08c19631b994fb4bbf);
+            
+        
+
+        marker_2898b492feff4cbb002b522d4743b4cd.bindPopup(popup_065572be0c545351c5dbc2a5808271b4)
+        ;
+
+        
+    
+    
+            var marker_dd9870054109e3c3a393cf41c246e160 = L.marker(
+                [41.38511502326348, 2.1724900324801135],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1392ecc92315cc675d1b6f4e944a23cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44365a8dd018fc5062746908db83a0d6 = $(`<div id="html_44365a8dd018fc5062746908db83a0d6" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_1392ecc92315cc675d1b6f4e944a23cc.setContent(html_44365a8dd018fc5062746908db83a0d6);
+            
+        
+
+        marker_dd9870054109e3c3a393cf41c246e160.bindPopup(popup_1392ecc92315cc675d1b6f4e944a23cc)
+        ;
+
+        
+    
+    
+            var marker_5647d497555caacc7940fbe9e0530c2e = L.marker(
+                [41.37486199391438, 2.1792238552789223],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4c52018e95d3f02be8b4cebc3430ef2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61d22240d8bbab81b465626571ef399e = $(`<div id="html_61d22240d8bbab81b465626571ef399e" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_4c52018e95d3f02be8b4cebc3430ef2d.setContent(html_61d22240d8bbab81b465626571ef399e);
+            
+        
+
+        marker_5647d497555caacc7940fbe9e0530c2e.bindPopup(popup_4c52018e95d3f02be8b4cebc3430ef2d)
+        ;
+
+        
+    
+    
+            var marker_6aa170791867f2cf93f2ce71ea77a4ce = L.marker(
+                [41.39138676470054, 2.012585833912123],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_976c22a30a1f7c370d0470864ddef841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_369d9ce7614221fd278c3b39c471136a = $(`<div id="html_369d9ce7614221fd278c3b39c471136a" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_976c22a30a1f7c370d0470864ddef841.setContent(html_369d9ce7614221fd278c3b39c471136a);
+            
+        
+
+        marker_6aa170791867f2cf93f2ce71ea77a4ce.bindPopup(popup_976c22a30a1f7c370d0470864ddef841)
+        ;
+
+        
+    
+    
+            var marker_2cd363512a9f3709590f8191e0edb35c = L.marker(
+                [41.39270189874143, 2.161056659620723],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1397095343a944f9e39d0bf58cc93532 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_056fd6cfaa34e1d756d82828cf6c2fa4 = $(`<div id="html_056fd6cfaa34e1d756d82828cf6c2fa4" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_1397095343a944f9e39d0bf58cc93532.setContent(html_056fd6cfaa34e1d756d82828cf6c2fa4);
+            
+        
+
+        marker_2cd363512a9f3709590f8191e0edb35c.bindPopup(popup_1397095343a944f9e39d0bf58cc93532)
+        ;
+
+        
+    
+    
+            var marker_ae41a216736c4e62b64a2a805ee849a8 = L.marker(
+                [41.394510335949576, 2.159642978850056],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_63404d0153bf1e3e96efdfbaf5943964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c78c8068cbdf9578952fb1b737479ef = $(`<div id="html_4c78c8068cbdf9578952fb1b737479ef" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_63404d0153bf1e3e96efdfbaf5943964.setContent(html_4c78c8068cbdf9578952fb1b737479ef);
+            
+        
+
+        marker_ae41a216736c4e62b64a2a805ee849a8.bindPopup(popup_63404d0153bf1e3e96efdfbaf5943964)
+        ;
+
+        
+    
+    
+            var marker_c59a3fda21c617549fdcdd782a4d5158 = L.marker(
+                [41.39679285814038, 2.1786109002571985],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fa2333c87fdbd5d4ed703b0d4921224c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b4e443531ec6ad1d063ba8567347439 = $(`<div id="html_6b4e443531ec6ad1d063ba8567347439" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_fa2333c87fdbd5d4ed703b0d4921224c.setContent(html_6b4e443531ec6ad1d063ba8567347439);
+            
+        
+
+        marker_c59a3fda21c617549fdcdd782a4d5158.bindPopup(popup_fa2333c87fdbd5d4ed703b0d4921224c)
+        ;
+
+        
+    
+    
+            var marker_9a50b0bb520e421130685bd561d56f66 = L.marker(
+                [41.404001193384936, 2.175107816169195],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_67123388753d8cc5eca44dcb69f62b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e1e14c6abb364ae8cc384bad97950f9 = $(`<div id="html_4e1e14c6abb364ae8cc384bad97950f9" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_67123388753d8cc5eca44dcb69f62b2c.setContent(html_4e1e14c6abb364ae8cc384bad97950f9);
+            
+        
+
+        marker_9a50b0bb520e421130685bd561d56f66.bindPopup(popup_67123388753d8cc5eca44dcb69f62b2c)
+        ;
+
+        
+    
+    
+            var marker_80f9c5bcfd74950a4d97eb7733389d43 = L.marker(
+                [41.37508969235699, 2.166134731029133],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f6f602f4b3b0b517ddf8f3bcc7c8f12a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aba69085bd1ed8aa86621426c6dd008f = $(`<div id="html_aba69085bd1ed8aa86621426c6dd008f" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_f6f602f4b3b0b517ddf8f3bcc7c8f12a.setContent(html_aba69085bd1ed8aa86621426c6dd008f);
+            
+        
+
+        marker_80f9c5bcfd74950a4d97eb7733389d43.bindPopup(popup_f6f602f4b3b0b517ddf8f3bcc7c8f12a)
+        ;
+
+        
+    
+    
+            var marker_d6787261dcc00c12e220c0daef3879af = L.marker(
+                [41.401409153675814, 2.1932527078422006],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ac3b2730dd7823c53243117e017fcd14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3322e8c2c22ef27ddee04b7447b53b84 = $(`<div id="html_3322e8c2c22ef27ddee04b7447b53b84" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_ac3b2730dd7823c53243117e017fcd14.setContent(html_3322e8c2c22ef27ddee04b7447b53b84);
+            
+        
+
+        marker_d6787261dcc00c12e220c0daef3879af.bindPopup(popup_ac3b2730dd7823c53243117e017fcd14)
+        ;
+
+        
+    
+    
+            var marker_b6fa975fa1b58c3ecb361056b5bc9bba = L.marker(
+                [41.40203006672155, 2.1866100192464875],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c0c5394ee799c3056eba3aba9368dd6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06b2acaa718acafa7632b6f6b0d2f36f = $(`<div id="html_06b2acaa718acafa7632b6f6b0d2f36f" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_c0c5394ee799c3056eba3aba9368dd6a.setContent(html_06b2acaa718acafa7632b6f6b0d2f36f);
+            
+        
+
+        marker_b6fa975fa1b58c3ecb361056b5bc9bba.bindPopup(popup_c0c5394ee799c3056eba3aba9368dd6a)
+        ;
+
+        
+    
+    
+            var marker_8b40d18fce85e94aec9a10f54f900670 = L.marker(
+                [41.41076692478359, 2.1772735589915047],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ebda4b78eb1a6558fd16c6b56a9c3fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06b95cf77e9824700a4d08ab4cfab68b = $(`<div id="html_06b95cf77e9824700a4d08ab4cfab68b" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_ebda4b78eb1a6558fd16c6b56a9c3fd4.setContent(html_06b95cf77e9824700a4d08ab4cfab68b);
+            
+        
+
+        marker_8b40d18fce85e94aec9a10f54f900670.bindPopup(popup_ebda4b78eb1a6558fd16c6b56a9c3fd4)
+        ;
+
+        
+    
+    
+            var marker_fbcf109838c3d196566e272773edbadc = L.marker(
+                [41.395880634281596, 2.1960324348536506],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f00220182fd26e839f013b9914731198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b3adad81cfba016ad3731ec61e5e8f0 = $(`<div id="html_1b3adad81cfba016ad3731ec61e5e8f0" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_f00220182fd26e839f013b9914731198.setContent(html_1b3adad81cfba016ad3731ec61e5e8f0);
+            
+        
+
+        marker_fbcf109838c3d196566e272773edbadc.bindPopup(popup_f00220182fd26e839f013b9914731198)
+        ;
+
+        
+    
+    
+            var marker_2e1c7994e63c6f3824784d8335b65c41 = L.marker(
+                [41.3874960503875, 2.1664977134510095],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_708259e308cdffe9bb3acf0d2e2a3642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_673f934808c1e74c27b51f7b8679fc07 = $(`<div id="html_673f934808c1e74c27b51f7b8679fc07" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_708259e308cdffe9bb3acf0d2e2a3642.setContent(html_673f934808c1e74c27b51f7b8679fc07);
+            
+        
+
+        marker_2e1c7994e63c6f3824784d8335b65c41.bindPopup(popup_708259e308cdffe9bb3acf0d2e2a3642)
+        ;
+
+        
+    
+    
+            var marker_cc6f5046032e45aad8cbe7198de1e5b3 = L.marker(
+                [41.389339268012826, 2.1811552149460316],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_83b8e2f13bf21349dda7bfd767ba164d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d72c33caa4871b499ca98af451573b15 = $(`<div id="html_d72c33caa4871b499ca98af451573b15" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_83b8e2f13bf21349dda7bfd767ba164d.setContent(html_d72c33caa4871b499ca98af451573b15);
+            
+        
+
+        marker_cc6f5046032e45aad8cbe7198de1e5b3.bindPopup(popup_83b8e2f13bf21349dda7bfd767ba164d)
+        ;
+
+        
+    
+    
+            var marker_872da2c6676ed5f9c6d714cb1d829a7a = L.marker(
+                [41.40095039163849, 2.174282909168399],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_322459cd562e104c97cc341be21f0667 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58a42692b001ec5c12c9c4ea21d6ff55 = $(`<div id="html_58a42692b001ec5c12c9c4ea21d6ff55" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_322459cd562e104c97cc341be21f0667.setContent(html_58a42692b001ec5c12c9c4ea21d6ff55);
+            
+        
+
+        marker_872da2c6676ed5f9c6d714cb1d829a7a.bindPopup(popup_322459cd562e104c97cc341be21f0667)
+        ;
+
+        
+    
+    
+            var marker_1da745a20a900aa058c586d991047431 = L.marker(
+                [41.392534365800834, 2.1805937604412295],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1b8520e4b453662467348f33d0d52e48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_608a23b88446b1e168c1ce7164e7414e = $(`<div id="html_608a23b88446b1e168c1ce7164e7414e" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_1b8520e4b453662467348f33d0d52e48.setContent(html_608a23b88446b1e168c1ce7164e7414e);
+            
+        
+
+        marker_1da745a20a900aa058c586d991047431.bindPopup(popup_1b8520e4b453662467348f33d0d52e48)
+        ;
+
+        
+    
+    
+            var marker_e3f8ceeab5ebc2477838ba760f67817b = L.marker(
+                [41.393953576512374, 2.177216732092324],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b94edc860703a11303940a0725b4abcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_639fedfdde705888a99ea43af77e48a5 = $(`<div id="html_639fedfdde705888a99ea43af77e48a5" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_b94edc860703a11303940a0725b4abcd.setContent(html_639fedfdde705888a99ea43af77e48a5);
+            
+        
+
+        marker_e3f8ceeab5ebc2477838ba760f67817b.bindPopup(popup_b94edc860703a11303940a0725b4abcd)
+        ;
+
+        
+    
+    
+            var marker_d9efef7ecee349f8729b3857016538eb = L.marker(
+                [41.38213755225445, 2.180267104844391],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8b0b885249bc30e2705e7bbcff1c295c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76d54203c853e2b5a43d051923fff028 = $(`<div id="html_76d54203c853e2b5a43d051923fff028" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_8b0b885249bc30e2705e7bbcff1c295c.setContent(html_76d54203c853e2b5a43d051923fff028);
+            
+        
+
+        marker_d9efef7ecee349f8729b3857016538eb.bindPopup(popup_8b0b885249bc30e2705e7bbcff1c295c)
+        ;
+
+        
+    
+    
+            var marker_338d0ac15b390c10765cf95618994e73 = L.marker(
+                [41.386338460900795, 2.1837679427924246],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_10ed89529eece89343a6afb465f9c4e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d00a45ac26a240f22969ebeff546cb62 = $(`<div id="html_d00a45ac26a240f22969ebeff546cb62" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_10ed89529eece89343a6afb465f9c4e6.setContent(html_d00a45ac26a240f22969ebeff546cb62);
+            
+        
+
+        marker_338d0ac15b390c10765cf95618994e73.bindPopup(popup_10ed89529eece89343a6afb465f9c4e6)
+        ;
+
+        
+    
+    
+            var marker_180eef533b422e8aa382ae5b396ffa78 = L.marker(
+                [41.37016969860467, 2.171379910098294],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_fe26b434a6ef68f727a299eebe6441c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92d674283ac464d1972ca062c0a23690 = $(`<div id="html_92d674283ac464d1972ca062c0a23690" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_fe26b434a6ef68f727a299eebe6441c9.setContent(html_92d674283ac464d1972ca062c0a23690);
+            
+        
+
+        marker_180eef533b422e8aa382ae5b396ffa78.bindPopup(popup_fe26b434a6ef68f727a299eebe6441c9)
+        ;
+
+        
+    
+    
+            var marker_51dfaa25e026e30e19c951d62215649a = L.marker(
+                [41.39839843410715, 2.162063561517119],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_16434fd3423fb0bac562a8bbee912433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fc8696a5863322fe19166db23ad7ff8 = $(`<div id="html_9fc8696a5863322fe19166db23ad7ff8" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_16434fd3423fb0bac562a8bbee912433.setContent(html_9fc8696a5863322fe19166db23ad7ff8);
+            
+        
+
+        marker_51dfaa25e026e30e19c951d62215649a.bindPopup(popup_16434fd3423fb0bac562a8bbee912433)
+        ;
+
+        
+    
+    
+            var marker_051ab6bd1e90f2a28b84104438ee1ee1 = L.marker(
+                [41.386428129341134, 2.1800865837637247],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ecde3b5e1afca4485cb83541673be6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdfb67abfcebc12e82f45837a20510db = $(`<div id="html_cdfb67abfcebc12e82f45837a20510db" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_ecde3b5e1afca4485cb83541673be6a6.setContent(html_cdfb67abfcebc12e82f45837a20510db);
+            
+        
+
+        marker_051ab6bd1e90f2a28b84104438ee1ee1.bindPopup(popup_ecde3b5e1afca4485cb83541673be6a6)
+        ;
+
+        
+    
+    
+            var marker_0e3584579a452225779561b16b3f2074 = L.marker(
+                [41.38685890944815, 2.1697349101822683],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8cdff0c79415621fd5308e3497de6eba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f30cf394cac27f9d6a2730c865c8116c = $(`<div id="html_f30cf394cac27f9d6a2730c865c8116c" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_8cdff0c79415621fd5308e3497de6eba.setContent(html_f30cf394cac27f9d6a2730c865c8116c);
+            
+        
+
+        marker_0e3584579a452225779561b16b3f2074.bindPopup(popup_8cdff0c79415621fd5308e3497de6eba)
+        ;
+
+        
+    
+    
+            var marker_0eb7eaf52cffe8c969cbdc061a924aff = L.marker(
+                [41.385822068509015, 2.191135025550248],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_630ba629107bc2a403c4e1b442970d92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e56cdfad8a26a248c59c071d92ebb57d = $(`<div id="html_e56cdfad8a26a248c59c071d92ebb57d" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_630ba629107bc2a403c4e1b442970d92.setContent(html_e56cdfad8a26a248c59c071d92ebb57d);
+            
+        
+
+        marker_0eb7eaf52cffe8c969cbdc061a924aff.bindPopup(popup_630ba629107bc2a403c4e1b442970d92)
+        ;
+
+        
+    
+    
+            var marker_13fbf478064d92ca3cc7a6e8083b9412 = L.marker(
+                [41.389714606471685, 2.1768682030039392],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_f859d2f957659f7c09a6d212a98203b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fbcbe9e587a7ae04f206d534fad5a29 = $(`<div id="html_0fbcbe9e587a7ae04f206d534fad5a29" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_f859d2f957659f7c09a6d212a98203b9.setContent(html_0fbcbe9e587a7ae04f206d534fad5a29);
+            
+        
+
+        marker_13fbf478064d92ca3cc7a6e8083b9412.bindPopup(popup_f859d2f957659f7c09a6d212a98203b9)
+        ;
+
+        
+    
+    
+            var marker_9f319469c2197017584ed676ba47e474 = L.marker(
+                [41.38716000118741, 2.1760182136553423],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_57cbb53b93bc417e0c33ad26b871a0b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_660f4e4d24238ce6f1499cbd8a11df07 = $(`<div id="html_660f4e4d24238ce6f1499cbd8a11df07" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_57cbb53b93bc417e0c33ad26b871a0b0.setContent(html_660f4e4d24238ce6f1499cbd8a11df07);
+            
+        
+
+        marker_9f319469c2197017584ed676ba47e474.bindPopup(popup_57cbb53b93bc417e0c33ad26b871a0b0)
+        ;
+
+        
+    
+    
+            var marker_24116028b0c21895cfc6444243a6a5b1 = L.marker(
+                [41.38292182395506, 2.163444009734057],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_542d6848a31be32e46d1e029727969c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d8ee5e726a4555a774d068504e914b9 = $(`<div id="html_7d8ee5e726a4555a774d068504e914b9" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_542d6848a31be32e46d1e029727969c1.setContent(html_7d8ee5e726a4555a774d068504e914b9);
+            
+        
+
+        marker_24116028b0c21895cfc6444243a6a5b1.bindPopup(popup_542d6848a31be32e46d1e029727969c1)
+        ;
+
+        
+    
+    
+            var marker_136a581309c9ce335a2aa9922e879e43 = L.marker(
+                [41.39614513190635, 2.178543924467707],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_584acec43ac75e443931978d7a967c30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43efa375de5844a8cb7b2429683537db = $(`<div id="html_43efa375de5844a8cb7b2429683537db" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_584acec43ac75e443931978d7a967c30.setContent(html_43efa375de5844a8cb7b2429683537db);
+            
+        
+
+        marker_136a581309c9ce335a2aa9922e879e43.bindPopup(popup_584acec43ac75e443931978d7a967c30)
+        ;
+
+        
+    
+    
+            var marker_a3c5afb31fe306cd8e2788025b319ced = L.marker(
+                [41.37332729596376, 2.179606434112594],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1d0365e009d9bc98dca648c0939cbbff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dae5649d9c4060c154ca8237921cfe6 = $(`<div id="html_5dae5649d9c4060c154ca8237921cfe6" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_1d0365e009d9bc98dca648c0939cbbff.setContent(html_5dae5649d9c4060c154ca8237921cfe6);
+            
+        
+
+        marker_a3c5afb31fe306cd8e2788025b319ced.bindPopup(popup_1d0365e009d9bc98dca648c0939cbbff)
+        ;
+
+        
+    
+    
+            var marker_169fb0be47cdb2082241512523944f43 = L.marker(
+                [41.373154237830654, 2.1746840469406905],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_13ef318de918408e0c71d30f231f345c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bb99c12d669f19b283e190a4f40be57 = $(`<div id="html_9bb99c12d669f19b283e190a4f40be57" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_13ef318de918408e0c71d30f231f345c.setContent(html_9bb99c12d669f19b283e190a4f40be57);
+            
+        
+
+        marker_169fb0be47cdb2082241512523944f43.bindPopup(popup_13ef318de918408e0c71d30f231f345c)
+        ;
+
+        
+    
+    
+            var marker_8678100dfe46d73c27b528be52299b74 = L.marker(
+                [41.40388590008872, 2.1865641298301126],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1ae0d9a65048e769101cb0766cb60016 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaca3da964e53610eb7ec0c2b3b62917 = $(`<div id="html_aaca3da964e53610eb7ec0c2b3b62917" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_1ae0d9a65048e769101cb0766cb60016.setContent(html_aaca3da964e53610eb7ec0c2b3b62917);
+            
+        
+
+        marker_8678100dfe46d73c27b528be52299b74.bindPopup(popup_1ae0d9a65048e769101cb0766cb60016)
+        ;
+
+        
+    
+    
+            var marker_2f3280b366208339181e1a23421c272b = L.marker(
+                [41.38351799270592, 2.1840236535394837],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_7d5be9bbc0fe03aaaa1cfa7a6bda17c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b53d1edec0e70ba0a8fd64f111b2507 = $(`<div id="html_8b53d1edec0e70ba0a8fd64f111b2507" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_7d5be9bbc0fe03aaaa1cfa7a6bda17c6.setContent(html_8b53d1edec0e70ba0a8fd64f111b2507);
+            
+        
+
+        marker_2f3280b366208339181e1a23421c272b.bindPopup(popup_7d5be9bbc0fe03aaaa1cfa7a6bda17c6)
+        ;
+
+        
+    
+    
+            var marker_15627657e4fc892888bb70a1ac5c0097 = L.marker(
+                [41.40373503355763, 2.1728644948463587],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_44ffad1ec8069943d498bf4e63eb8336 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb60830c7b08bded8dcbeb67b65753cb = $(`<div id="html_cb60830c7b08bded8dcbeb67b65753cb" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_44ffad1ec8069943d498bf4e63eb8336.setContent(html_cb60830c7b08bded8dcbeb67b65753cb);
+            
+        
+
+        marker_15627657e4fc892888bb70a1ac5c0097.bindPopup(popup_44ffad1ec8069943d498bf4e63eb8336)
+        ;
+
+        
+    
+    
+            var marker_8c8f06062ec112686b3170d22cba1858 = L.marker(
+                [41.396840097834186, 2.188563342501165],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_4117b4ef00d5bf2e94559e48734356f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc0e4c492769807e2022fdbde46fe878 = $(`<div id="html_fc0e4c492769807e2022fdbde46fe878" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_4117b4ef00d5bf2e94559e48734356f1.setContent(html_fc0e4c492769807e2022fdbde46fe878);
+            
+        
+
+        marker_8c8f06062ec112686b3170d22cba1858.bindPopup(popup_4117b4ef00d5bf2e94559e48734356f1)
+        ;
+
+        
+    
+    
+            var marker_757eba70f4abec911d2dff74df6455e5 = L.marker(
+                [41.40141979886905, 2.1773147543639784],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8e24f735e9f1626a1882634460365226 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3747b9ee48c6fedca072ee0a3896675 = $(`<div id="html_f3747b9ee48c6fedca072ee0a3896675" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_8e24f735e9f1626a1882634460365226.setContent(html_f3747b9ee48c6fedca072ee0a3896675);
+            
+        
+
+        marker_757eba70f4abec911d2dff74df6455e5.bindPopup(popup_8e24f735e9f1626a1882634460365226)
+        ;
+
+        
+    
+    
+            var marker_856e07c971929f7e7db8a005e46adb84 = L.marker(
+                [41.382107134051175, 2.18158813358846],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_25ed4c18ed3b8aeac20aa85675a1e607 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a282e1a27e1817f9d7ef1b03e240d04 = $(`<div id="html_8a282e1a27e1817f9d7ef1b03e240d04" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_25ed4c18ed3b8aeac20aa85675a1e607.setContent(html_8a282e1a27e1817f9d7ef1b03e240d04);
+            
+        
+
+        marker_856e07c971929f7e7db8a005e46adb84.bindPopup(popup_25ed4c18ed3b8aeac20aa85675a1e607)
+        ;
+
+        
+    
+    
+            var marker_c1f731dbfd093a66725770593dbb3781 = L.marker(
+                [41.388676454979034, 2.1700290144885632],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_2593bbd1d45106ce9344881fce90fd95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fda7e0772ef6a7969d71407535514c69 = $(`<div id="html_fda7e0772ef6a7969d71407535514c69" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_2593bbd1d45106ce9344881fce90fd95.setContent(html_fda7e0772ef6a7969d71407535514c69);
+            
+        
+
+        marker_c1f731dbfd093a66725770593dbb3781.bindPopup(popup_2593bbd1d45106ce9344881fce90fd95)
+        ;
+
+        
+    
+    
+            var marker_c529e81dbaa5b1e6a6762dc14f15c60d = L.marker(
+                [41.4007928717861, 2.1895874850803994],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_96116f7f3ac17bdd3b35411bfcdb648a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5efbe503ecbf0e309ea53d512105473f = $(`<div id="html_5efbe503ecbf0e309ea53d512105473f" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_96116f7f3ac17bdd3b35411bfcdb648a.setContent(html_5efbe503ecbf0e309ea53d512105473f);
+            
+        
+
+        marker_c529e81dbaa5b1e6a6762dc14f15c60d.bindPopup(popup_96116f7f3ac17bdd3b35411bfcdb648a)
+        ;
+
+        
+    
+    
+            var marker_afe05ba10371f1d15fc8d23c40692bce = L.marker(
+                [41.41005699127728, 2.175953501478921],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_6ea7633bddc705907c6e2ccc757f0323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe58268086010032ec4f0385122d92aa = $(`<div id="html_fe58268086010032ec4f0385122d92aa" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_6ea7633bddc705907c6e2ccc757f0323.setContent(html_fe58268086010032ec4f0385122d92aa);
+            
+        
+
+        marker_afe05ba10371f1d15fc8d23c40692bce.bindPopup(popup_6ea7633bddc705907c6e2ccc757f0323)
+        ;
+
+        
+    
+    
+            var marker_f2ea1ec13a06829758c1b327e14bdb1c = L.marker(
+                [41.40257211893099, 2.1718653253342026],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_914bfd62413f2fbc51b239fcf0ce5b12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c6fbc7ac33eb8f383f71b118804942c = $(`<div id="html_9c6fbc7ac33eb8f383f71b118804942c" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_914bfd62413f2fbc51b239fcf0ce5b12.setContent(html_9c6fbc7ac33eb8f383f71b118804942c);
+            
+        
+
+        marker_f2ea1ec13a06829758c1b327e14bdb1c.bindPopup(popup_914bfd62413f2fbc51b239fcf0ce5b12)
+        ;
+
+        
+    
+    
+            var marker_4e274efadb10515275011a557acdb4fe = L.marker(
+                [41.39944891865425, 2.161828719774094],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b7c39002d52fdffd831ca20619a400c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_732a2df50fdda320d7618645fa065ea1 = $(`<div id="html_732a2df50fdda320d7618645fa065ea1" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_b7c39002d52fdffd831ca20619a400c7.setContent(html_732a2df50fdda320d7618645fa065ea1);
+            
+        
+
+        marker_4e274efadb10515275011a557acdb4fe.bindPopup(popup_b7c39002d52fdffd831ca20619a400c7)
+        ;
+
+        
+    
+    
+            var marker_d824ce4c480930a55320033f73c9abbf = L.marker(
+                [41.39728863877752, 2.1780934823707305],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_23a41050aa8c09317b11c7c18a774033 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c17e6cd148a811488454594b99607a99 = $(`<div id="html_c17e6cd148a811488454594b99607a99" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_23a41050aa8c09317b11c7c18a774033.setContent(html_c17e6cd148a811488454594b99607a99);
+            
+        
+
+        marker_d824ce4c480930a55320033f73c9abbf.bindPopup(popup_23a41050aa8c09317b11c7c18a774033)
+        ;
+
+        
+    
+    
+            var marker_f784ed129307efe108e97589525b6ccb = L.marker(
+                [41.40573557450225, 2.1588090750644477],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_9940d90aea80778c2de937c7f5b94093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d5679446faa0f57657b5300cb9ec716 = $(`<div id="html_9d5679446faa0f57657b5300cb9ec716" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_9940d90aea80778c2de937c7f5b94093.setContent(html_9d5679446faa0f57657b5300cb9ec716);
+            
+        
+
+        marker_f784ed129307efe108e97589525b6ccb.bindPopup(popup_9940d90aea80778c2de937c7f5b94093)
+        ;
+
+        
+    
+    
+            var marker_f955b5cfa8e909a7f3f89b8584844d20 = L.marker(
+                [41.385229023740735, 2.180227740101862],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_c4e051835865885d70470b3fc822e4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34680968852581e3e3c08f52c33febd3 = $(`<div id="html_34680968852581e3e3c08f52c33febd3" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_c4e051835865885d70470b3fc822e4c0.setContent(html_34680968852581e3e3c08f52c33febd3);
+            
+        
+
+        marker_f955b5cfa8e909a7f3f89b8584844d20.bindPopup(popup_c4e051835865885d70470b3fc822e4c0)
+        ;
+
+        
+    
+    
+            var marker_843a3408d6026d3439c94c7a83804117 = L.marker(
+                [41.391840894654024, 2.1673855210931277],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_511ae98efb8f8f35033c1351cdac95d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f90d7af539a04ffcb685f0b90215a15 = $(`<div id="html_0f90d7af539a04ffcb685f0b90215a15" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_511ae98efb8f8f35033c1351cdac95d4.setContent(html_0f90d7af539a04ffcb685f0b90215a15);
+            
+        
+
+        marker_843a3408d6026d3439c94c7a83804117.bindPopup(popup_511ae98efb8f8f35033c1351cdac95d4)
+        ;
+
+        
+    
+    
+            var marker_e7cb2a58e97027bc10b639b416b286a5 = L.marker(
+                [41.38986857913137, 2.180906023590766],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d4f6a1d4c2d4d6b98954ea37e385d937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fa0d84ea6d9448e0130aaad5e94af03 = $(`<div id="html_0fa0d84ea6d9448e0130aaad5e94af03" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_d4f6a1d4c2d4d6b98954ea37e385d937.setContent(html_0fa0d84ea6d9448e0130aaad5e94af03);
+            
+        
+
+        marker_e7cb2a58e97027bc10b639b416b286a5.bindPopup(popup_d4f6a1d4c2d4d6b98954ea37e385d937)
+        ;
+
+        
+    
+    
+            var marker_a7aabb23794c855614041cd7a79f27b9 = L.marker(
+                [41.38490542276311, 2.1757696888740408],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e313d967cd37a97cc066d318ba9a2b50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcc63bfacfb6640b3f85153f7018f37b = $(`<div id="html_fcc63bfacfb6640b3f85153f7018f37b" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_e313d967cd37a97cc066d318ba9a2b50.setContent(html_fcc63bfacfb6640b3f85153f7018f37b);
+            
+        
+
+        marker_a7aabb23794c855614041cd7a79f27b9.bindPopup(popup_e313d967cd37a97cc066d318ba9a2b50)
+        ;
+
+        
+    
+    
+            var marker_834e7a698afd2d0a72e472153bfa340d = L.marker(
+                [41.39888157281255, 2.171007256799477],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5aa759eee29819d0533442d959a52b43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d43b7b710a33fda2d0b43a5c75d79109 = $(`<div id="html_d43b7b710a33fda2d0b43a5c75d79109" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_5aa759eee29819d0533442d959a52b43.setContent(html_d43b7b710a33fda2d0b43a5c75d79109);
+            
+        
+
+        marker_834e7a698afd2d0a72e472153bfa340d.bindPopup(popup_5aa759eee29819d0533442d959a52b43)
+        ;
+
+        
+    
+    
+            var marker_f1d9a769e4f94b82f67f20a24d5b9885 = L.marker(
+                [41.41068346089347, 2.1660337262458182],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_090941df98783cdf91621d78942e180b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25e81e50d313a43f905443fe31627749 = $(`<div id="html_25e81e50d313a43f905443fe31627749" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_090941df98783cdf91621d78942e180b.setContent(html_25e81e50d313a43f905443fe31627749);
+            
+        
+
+        marker_f1d9a769e4f94b82f67f20a24d5b9885.bindPopup(popup_090941df98783cdf91621d78942e180b)
+        ;
+
+        
+    
+    
+            var marker_6bfd31db700f8eb064bd465248b2a99b = L.marker(
+                [41.397142428675764, 2.1959339691976774],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b23c928122101526b77816157e52639c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb416152ae5b582c9059270a7f7c70c4 = $(`<div id="html_cb416152ae5b582c9059270a7f7c70c4" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_b23c928122101526b77816157e52639c.setContent(html_cb416152ae5b582c9059270a7f7c70c4);
+            
+        
+
+        marker_6bfd31db700f8eb064bd465248b2a99b.bindPopup(popup_b23c928122101526b77816157e52639c)
+        ;
+
+        
+    
+    
+            var marker_71d70997f63f6e97b35fa49490d92d9c = L.marker(
+                [41.37518046398894, 2.1892459519546867],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b7bd88b2e7f117e71b77900335ffd958 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f0ee078492fbe73d371bd121c020683 = $(`<div id="html_9f0ee078492fbe73d371bd121c020683" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_b7bd88b2e7f117e71b77900335ffd958.setContent(html_9f0ee078492fbe73d371bd121c020683);
+            
+        
+
+        marker_71d70997f63f6e97b35fa49490d92d9c.bindPopup(popup_b7bd88b2e7f117e71b77900335ffd958)
+        ;
+
+        
+    
+    
+            var marker_94805b4e062bb8326b07f5ef8c755edc = L.marker(
+                [41.39151118731682, 2.1752295670214954],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_08e1d07cf06a6165b926fef717651aba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5b71563d82e710330b3f4969cc4ddd9 = $(`<div id="html_d5b71563d82e710330b3f4969cc4ddd9" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_08e1d07cf06a6165b926fef717651aba.setContent(html_d5b71563d82e710330b3f4969cc4ddd9);
+            
+        
+
+        marker_94805b4e062bb8326b07f5ef8c755edc.bindPopup(popup_08e1d07cf06a6165b926fef717651aba)
+        ;
+
+        
+    
+    
+            var marker_39f85132766f6267dfc59d98fbf25448 = L.marker(
+                [41.40145225693594, 2.186966123859716],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_af7896df0384711ff81d2760e80bb334 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef4c67679883cb9fea936e0f717dd96c = $(`<div id="html_ef4c67679883cb9fea936e0f717dd96c" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_af7896df0384711ff81d2760e80bb334.setContent(html_ef4c67679883cb9fea936e0f717dd96c);
+            
+        
+
+        marker_39f85132766f6267dfc59d98fbf25448.bindPopup(popup_af7896df0384711ff81d2760e80bb334)
+        ;
+
+        
+    
+    
+            var marker_cc7e175231e74505f27621e5b8b0848b = L.marker(
+                [41.389108413284845, 2.1960227791406375],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_bc85caed82461a6eb6665d07f994f711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fbf16c0d0f1f052205c3ea73390c91f = $(`<div id="html_5fbf16c0d0f1f052205c3ea73390c91f" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_bc85caed82461a6eb6665d07f994f711.setContent(html_5fbf16c0d0f1f052205c3ea73390c91f);
+            
+        
+
+        marker_cc7e175231e74505f27621e5b8b0848b.bindPopup(popup_bc85caed82461a6eb6665d07f994f711)
+        ;
+
+        
+    
+    
+            var marker_5253255eacbb4d4c4d87e535fed5d2d1 = L.marker(
+                [41.38443444308873, 2.160215205667992],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8e29d992e9cb918e9b254cb6d54acc7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4b4b57782f998afc0f46095b18b4bec = $(`<div id="html_f4b4b57782f998afc0f46095b18b4bec" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_8e29d992e9cb918e9b254cb6d54acc7c.setContent(html_f4b4b57782f998afc0f46095b18b4bec);
+            
+        
+
+        marker_5253255eacbb4d4c4d87e535fed5d2d1.bindPopup(popup_8e29d992e9cb918e9b254cb6d54acc7c)
+        ;
+
+        
+    
+    
+            var marker_6c465ec5f245e89bc9f3da940ab837c4 = L.marker(
+                [41.38929567505478, 2.165090598747424],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e9a5a19e0ecd098f5b98bba88b5d38d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fba55c32747739628f4aff0da66f9474 = $(`<div id="html_fba55c32747739628f4aff0da66f9474" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_e9a5a19e0ecd098f5b98bba88b5d38d6.setContent(html_fba55c32747739628f4aff0da66f9474);
+            
+        
+
+        marker_6c465ec5f245e89bc9f3da940ab837c4.bindPopup(popup_e9a5a19e0ecd098f5b98bba88b5d38d6)
+        ;
+
+        
+    
+    
+            var marker_5ede11401a610d4155a91613663ddcb0 = L.marker(
+                [41.39669057109805, 2.1838737217760995],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ea70378952a57ed9ff065207dd1a1c86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7d83d7421f7a3b4a00b9cea7e82f222 = $(`<div id="html_f7d83d7421f7a3b4a00b9cea7e82f222" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_ea70378952a57ed9ff065207dd1a1c86.setContent(html_f7d83d7421f7a3b4a00b9cea7e82f222);
+            
+        
+
+        marker_5ede11401a610d4155a91613663ddcb0.bindPopup(popup_ea70378952a57ed9ff065207dd1a1c86)
+        ;
+
+        
+    
+    
+            var marker_d2388abbcde1182b023b729d707fbfe7 = L.marker(
+                [41.37855294129473, 2.1861394936700185],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_eb5585aaacdffa88ed025ef2bb53f3c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a10b45edb7ca7fd92e8e3065489623e = $(`<div id="html_0a10b45edb7ca7fd92e8e3065489623e" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_eb5585aaacdffa88ed025ef2bb53f3c2.setContent(html_0a10b45edb7ca7fd92e8e3065489623e);
+            
+        
+
+        marker_d2388abbcde1182b023b729d707fbfe7.bindPopup(popup_eb5585aaacdffa88ed025ef2bb53f3c2)
+        ;
+
+        
+    
+    
+            var marker_71b5e512b0a3ceb3c22fc77bd34c7b93 = L.marker(
+                [41.39906399082707, 2.1905720649118137],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8a247118a724aac8189bd2c023616a66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be91698a0f7e34ed977d94d634967406 = $(`<div id="html_be91698a0f7e34ed977d94d634967406" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_8a247118a724aac8189bd2c023616a66.setContent(html_be91698a0f7e34ed977d94d634967406);
+            
+        
+
+        marker_71b5e512b0a3ceb3c22fc77bd34c7b93.bindPopup(popup_8a247118a724aac8189bd2c023616a66)
+        ;
+
+        
+    
+    
+            var marker_182f51a4802c0d4b250536df0b79dc35 = L.marker(
+                [41.40218813781813, 2.19580639382412],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_abbeeee7c6f9fc545759b27e4459eeec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24069ac8919e9ef64d6b0e89740f5de9 = $(`<div id="html_24069ac8919e9ef64d6b0e89740f5de9" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_abbeeee7c6f9fc545759b27e4459eeec.setContent(html_24069ac8919e9ef64d6b0e89740f5de9);
+            
+        
+
+        marker_182f51a4802c0d4b250536df0b79dc35.bindPopup(popup_abbeeee7c6f9fc545759b27e4459eeec)
+        ;
+
+        
+    
+    
+            var marker_defb8b03e9a111b9a98b58f69ff5dd1c = L.marker(
+                [41.37420063850973, 2.173540315681172],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a6654b20d844f5b7476ed89aaf1ff70d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00f923dcf40718f035a3cf7df12c914 = $(`<div id="html_a00f923dcf40718f035a3cf7df12c914" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_a6654b20d844f5b7476ed89aaf1ff70d.setContent(html_a00f923dcf40718f035a3cf7df12c914);
+            
+        
+
+        marker_defb8b03e9a111b9a98b58f69ff5dd1c.bindPopup(popup_a6654b20d844f5b7476ed89aaf1ff70d)
+        ;
+
+        
+    
+    
+            var marker_749f97cdac6cfc5268809a4da0608f39 = L.marker(
+                [41.39371620961367, 2.1975103243549223],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_082ed9ccd3239dd186520f111a62037a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f54181cb69197b400ae2d24cd68a84f0 = $(`<div id="html_f54181cb69197b400ae2d24cd68a84f0" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_082ed9ccd3239dd186520f111a62037a.setContent(html_f54181cb69197b400ae2d24cd68a84f0);
+            
+        
+
+        marker_749f97cdac6cfc5268809a4da0608f39.bindPopup(popup_082ed9ccd3239dd186520f111a62037a)
+        ;
+
+        
+    
+    
+            var marker_18387a0de84b52f88ebd9d2a589f1614 = L.marker(
+                [41.40806377126741, 2.1703337622043417],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_51019ffd65d4ba0b8ac8622baa1b6877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a942a5d815e518c0c3a094deb54720a = $(`<div id="html_4a942a5d815e518c0c3a094deb54720a" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_51019ffd65d4ba0b8ac8622baa1b6877.setContent(html_4a942a5d815e518c0c3a094deb54720a);
+            
+        
+
+        marker_18387a0de84b52f88ebd9d2a589f1614.bindPopup(popup_51019ffd65d4ba0b8ac8622baa1b6877)
+        ;
+
+        
+    
+    
+            var marker_e4ed614a315079fd522acaedde18aa91 = L.marker(
+                [41.390992395787606, 2.169829929927393],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_00ba9cdbff2304cb3f64d6570247558e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd9d93ad7e3c8d76272dd346015b0f7f = $(`<div id="html_dd9d93ad7e3c8d76272dd346015b0f7f" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_00ba9cdbff2304cb3f64d6570247558e.setContent(html_dd9d93ad7e3c8d76272dd346015b0f7f);
+            
+        
+
+        marker_e4ed614a315079fd522acaedde18aa91.bindPopup(popup_00ba9cdbff2304cb3f64d6570247558e)
+        ;
+
+        
+    
+    
+            var marker_34b8cc42fca23ff33a43fe58c6acb2b9 = L.marker(
+                [41.37272950711813, 2.0060079849750965],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_448601bcb641fd0c3248bd5951368f56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9149efe1f12f198ce0f3c476514865e5 = $(`<div id="html_9149efe1f12f198ce0f3c476514865e5" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_448601bcb641fd0c3248bd5951368f56.setContent(html_9149efe1f12f198ce0f3c476514865e5);
+            
+        
+
+        marker_34b8cc42fca23ff33a43fe58c6acb2b9.bindPopup(popup_448601bcb641fd0c3248bd5951368f56)
+        ;
+
+        
+    
+    
+            var marker_953d63a700ad693c76218658aabc2518 = L.marker(
+                [41.383922992162546, 2.18260191686725],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_67d8e62a014ce8eb3a283bc557c8bcc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f48ea4d7a46761240c2ae464e897d5c = $(`<div id="html_2f48ea4d7a46761240c2ae464e897d5c" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_67d8e62a014ce8eb3a283bc557c8bcc9.setContent(html_2f48ea4d7a46761240c2ae464e897d5c);
+            
+        
+
+        marker_953d63a700ad693c76218658aabc2518.bindPopup(popup_67d8e62a014ce8eb3a283bc557c8bcc9)
+        ;
+
+        
+    
+    
+            var marker_73f326adfcb8c04d6b643b430f7b31dc = L.marker(
+                [41.39522567965872, 2.1760942985301],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_18159e2306fe70dae7623b5278df7b34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c8a988bef7020e10c73262a3ad363f6 = $(`<div id="html_5c8a988bef7020e10c73262a3ad363f6" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_18159e2306fe70dae7623b5278df7b34.setContent(html_5c8a988bef7020e10c73262a3ad363f6);
+            
+        
+
+        marker_73f326adfcb8c04d6b643b430f7b31dc.bindPopup(popup_18159e2306fe70dae7623b5278df7b34)
+        ;
+
+        
+    
+    
+            var marker_9ee8282d419b1e5f3757246901dbc1eb = L.marker(
+                [41.40599949539502, 2.1886440943058303],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_9a3d8bd7d374f115d87fe2467503940f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a19efe89586b415c7b8f6b15e589f84 = $(`<div id="html_3a19efe89586b415c7b8f6b15e589f84" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_9a3d8bd7d374f115d87fe2467503940f.setContent(html_3a19efe89586b415c7b8f6b15e589f84);
+            
+        
+
+        marker_9ee8282d419b1e5f3757246901dbc1eb.bindPopup(popup_9a3d8bd7d374f115d87fe2467503940f)
+        ;
+
+        
+    
+    
+            var marker_4b204275a740e5c113c7fb8bd5b2d95f = L.marker(
+                [41.40530765934955, 2.1783540458030934],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a28bf7247b3254f98030001e705f4bea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83b89bdeefccfcf92f5907ddd605a1e0 = $(`<div id="html_83b89bdeefccfcf92f5907ddd605a1e0" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_a28bf7247b3254f98030001e705f4bea.setContent(html_83b89bdeefccfcf92f5907ddd605a1e0);
+            
+        
+
+        marker_4b204275a740e5c113c7fb8bd5b2d95f.bindPopup(popup_a28bf7247b3254f98030001e705f4bea)
+        ;
+
+        
+    
+    
+            var marker_170826617816d738a48ef0017288a1df = L.marker(
+                [41.39188093726229, 2.197324057973992],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8ea19f6443359ab582cdd8540ad6fbed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6120dcb0b145406a5c930e26b2ed8126 = $(`<div id="html_6120dcb0b145406a5c930e26b2ed8126" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_8ea19f6443359ab582cdd8540ad6fbed.setContent(html_6120dcb0b145406a5c930e26b2ed8126);
+            
+        
+
+        marker_170826617816d738a48ef0017288a1df.bindPopup(popup_8ea19f6443359ab582cdd8540ad6fbed)
+        ;
+
+        
+    
+    
+            var marker_6e9c116c3c18fa66094c655ea583e0ee = L.marker(
+                [41.41097688991844, 2.158423835181046],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_b9184d5506a987b5dc6f3a52348cec40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5896f17525cf332a73ba137ac84baac = $(`<div id="html_b5896f17525cf332a73ba137ac84baac" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_b9184d5506a987b5dc6f3a52348cec40.setContent(html_b5896f17525cf332a73ba137ac84baac);
+            
+        
+
+        marker_6e9c116c3c18fa66094c655ea583e0ee.bindPopup(popup_b9184d5506a987b5dc6f3a52348cec40)
+        ;
+
+        
+    
+    
+            var marker_cfbc5073cabfe1d38d621841fc56ca5e = L.marker(
+                [41.396744910889446, 2.190208151469474],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_46bca4fce8f655d713b46383817bdd65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d21b46d60007da498fc269d726320ed = $(`<div id="html_6d21b46d60007da498fc269d726320ed" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_46bca4fce8f655d713b46383817bdd65.setContent(html_6d21b46d60007da498fc269d726320ed);
+            
+        
+
+        marker_cfbc5073cabfe1d38d621841fc56ca5e.bindPopup(popup_46bca4fce8f655d713b46383817bdd65)
+        ;
+
+        
+    
+    
+            var marker_7b4024919edd53fd07163f1947efb86a = L.marker(
+                [41.413686418756306, 2.176549613425737],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_ca38bf01a8ff93e4dd133e65d4754639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a8933f9c87f5168931ff16f11b0069c = $(`<div id="html_9a8933f9c87f5168931ff16f11b0069c" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_ca38bf01a8ff93e4dd133e65d4754639.setContent(html_9a8933f9c87f5168931ff16f11b0069c);
+            
+        
+
+        marker_7b4024919edd53fd07163f1947efb86a.bindPopup(popup_ca38bf01a8ff93e4dd133e65d4754639)
+        ;
+
+        
+    
+    
+            var marker_e41f47b9c94b594c3f602c83dfb95ccd = L.marker(
+                [41.39444405015665, 2.1636192127151506],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_09c40d25fccb21a74037dba25720dabf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2349778da47ba05db890ab09855e9279 = $(`<div id="html_2349778da47ba05db890ab09855e9279" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_09c40d25fccb21a74037dba25720dabf.setContent(html_2349778da47ba05db890ab09855e9279);
+            
+        
+
+        marker_e41f47b9c94b594c3f602c83dfb95ccd.bindPopup(popup_09c40d25fccb21a74037dba25720dabf)
+        ;
+
+        
+    
+    
+            var marker_22cc45f4bb64803e2876cbd0bc677a89 = L.marker(
+                [41.409093555922325, 2.1599805059055615],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_2001c89fdbd7fa157a80c7a36bf3b665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c0804956b1807451ad04d4d06d63781 = $(`<div id="html_3c0804956b1807451ad04d4d06d63781" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_2001c89fdbd7fa157a80c7a36bf3b665.setContent(html_3c0804956b1807451ad04d4d06d63781);
+            
+        
+
+        marker_22cc45f4bb64803e2876cbd0bc677a89.bindPopup(popup_2001c89fdbd7fa157a80c7a36bf3b665)
+        ;
+
+        
+    
+    
+            var marker_c1e179212659cafda0880cad685ee662 = L.marker(
+                [41.40396556861718, 2.184436822959757],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_e3b89ea4bc113a2b97250b7322abb728 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fa7a97c23e545381c378ae9046dad2f = $(`<div id="html_6fa7a97c23e545381c378ae9046dad2f" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_e3b89ea4bc113a2b97250b7322abb728.setContent(html_6fa7a97c23e545381c378ae9046dad2f);
+            
+        
+
+        marker_c1e179212659cafda0880cad685ee662.bindPopup(popup_e3b89ea4bc113a2b97250b7322abb728)
+        ;
+
+        
+    
+    
+            var marker_89adb88d44fae38ab4d48e4027e8f1e4 = L.marker(
+                [41.397906604502104, 2.176779553185043],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_2e6559c2fd4d3f55ac68f27dfdeaa85c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1158c58b7a8b16b8201e337f8301092 = $(`<div id="html_b1158c58b7a8b16b8201e337f8301092" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_2e6559c2fd4d3f55ac68f27dfdeaa85c.setContent(html_b1158c58b7a8b16b8201e337f8301092);
+            
+        
+
+        marker_89adb88d44fae38ab4d48e4027e8f1e4.bindPopup(popup_2e6559c2fd4d3f55ac68f27dfdeaa85c)
+        ;
+
+        
+    
+    
+            var marker_fc40eec905718cda079acd3220058d6e = L.marker(
+                [41.39114722025124, 2.191550426432059],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_504ff5bdff8902f64ddde21356bd522d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcfd3b7f63bdde900a55f9e706c32007 = $(`<div id="html_fcfd3b7f63bdde900a55f9e706c32007" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_504ff5bdff8902f64ddde21356bd522d.setContent(html_fcfd3b7f63bdde900a55f9e706c32007);
+            
+        
+
+        marker_fc40eec905718cda079acd3220058d6e.bindPopup(popup_504ff5bdff8902f64ddde21356bd522d)
+        ;
+
+        
+    
+    
+            var marker_6c155c2b098c03d21f16577795e8eaa2 = L.marker(
+                [41.39418031880582, 2.1680846385012664],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_1db316543590b75c182f6bdad834888d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_febf2c646f8e2664ace21da8d80ef0dd = $(`<div id="html_febf2c646f8e2664ace21da8d80ef0dd" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_1db316543590b75c182f6bdad834888d.setContent(html_febf2c646f8e2664ace21da8d80ef0dd);
+            
+        
+
+        marker_6c155c2b098c03d21f16577795e8eaa2.bindPopup(popup_1db316543590b75c182f6bdad834888d)
+        ;
+
+        
+    
+    
+            var marker_30cb5d67bacab9510a43baab66b753c9 = L.marker(
+                [41.39641133256424, 2.1784260057854072],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a5e66aeec62e1810891b77477c360f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dd3a4d9f94523c2aa3f07aaf9f877cb = $(`<div id="html_4dd3a4d9f94523c2aa3f07aaf9f877cb" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_a5e66aeec62e1810891b77477c360f06.setContent(html_4dd3a4d9f94523c2aa3f07aaf9f877cb);
+            
+        
+
+        marker_30cb5d67bacab9510a43baab66b753c9.bindPopup(popup_a5e66aeec62e1810891b77477c360f06)
+        ;
+
+        
+    
+    
+            var marker_8dd81e4b54dbd01d1c5f09d3a776df6b = L.marker(
+                [41.41178624469127, 2.1576989569510236],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a34280267f21c21fbce760526b543bed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ddbb6dc30b6f7771ed678aaa0d12886 = $(`<div id="html_1ddbb6dc30b6f7771ed678aaa0d12886" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_a34280267f21c21fbce760526b543bed.setContent(html_1ddbb6dc30b6f7771ed678aaa0d12886);
+            
+        
+
+        marker_8dd81e4b54dbd01d1c5f09d3a776df6b.bindPopup(popup_a34280267f21c21fbce760526b543bed)
+        ;
+
+        
+    
+    
+            var marker_7e5d6a59f6647101b30c9ba0f3c7e87a = L.marker(
+                [41.413789054229575, 2.169690068219901],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_dba232e12848141cb3adf5bcc77138a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d709363e27f1a10e049efe5d581ea6e0 = $(`<div id="html_d709363e27f1a10e049efe5d581ea6e0" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_dba232e12848141cb3adf5bcc77138a1.setContent(html_d709363e27f1a10e049efe5d581ea6e0);
+            
+        
+
+        marker_7e5d6a59f6647101b30c9ba0f3c7e87a.bindPopup(popup_dba232e12848141cb3adf5bcc77138a1)
+        ;
+
+        
+    
+    
+            var marker_792a8798b62b66888c38f44f77c53a47 = L.marker(
+                [41.38852190612897, 2.1671235634233668],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_296158370c36d67c40dad9c30ea2b83d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d37b02fc785744452250758185b11ae = $(`<div id="html_4d37b02fc785744452250758185b11ae" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_296158370c36d67c40dad9c30ea2b83d.setContent(html_4d37b02fc785744452250758185b11ae);
+            
+        
+
+        marker_792a8798b62b66888c38f44f77c53a47.bindPopup(popup_296158370c36d67c40dad9c30ea2b83d)
+        ;
+
+        
+    
+    
+            var marker_2d9b5d0b8ae19e96baf331175b4eff6f = L.marker(
+                [41.3922008816423, 2.174070681661431],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_d5c3a9a51f5f225ebbe2cc1593fbae8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30153193bba30a1cdceb591b63460ee5 = $(`<div id="html_30153193bba30a1cdceb591b63460ee5" style="width: 100.0%; height: 100.0%;">El Corte Inglés</div>`)[0];
+                popup_d5c3a9a51f5f225ebbe2cc1593fbae8b.setContent(html_30153193bba30a1cdceb591b63460ee5);
+            
+        
+
+        marker_2d9b5d0b8ae19e96baf331175b4eff6f.bindPopup(popup_d5c3a9a51f5f225ebbe2cc1593fbae8b)
+        ;
+
+        
+    
+    
+            var marker_f12e3d10131540cae51c786c9bba5112 = L.marker(
+                [41.393006779661484, 2.1709181735129803],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_73cc5818d075043f7cb2b105c3fd461f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7cef5eca6dd7c068a3278b5917a74d = $(`<div id="html_ab7cef5eca6dd7c068a3278b5917a74d" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_73cc5818d075043f7cb2b105c3fd461f.setContent(html_ab7cef5eca6dd7c068a3278b5917a74d);
+            
+        
+
+        marker_f12e3d10131540cae51c786c9bba5112.bindPopup(popup_73cc5818d075043f7cb2b105c3fd461f)
+        ;
+
+        
+    
+    
+            var marker_1238792d5fe99de1424479fae50c9549 = L.marker(
+                [41.385279443960336, 2.17065909237075],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_26f8debc233d80aff3739ba4a271b815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbb832abac8ce45a5660db621d5cdae6 = $(`<div id="html_dbb832abac8ce45a5660db621d5cdae6" style="width: 100.0%; height: 100.0%;">Carrefour</div>`)[0];
+                popup_26f8debc233d80aff3739ba4a271b815.setContent(html_dbb832abac8ce45a5660db621d5cdae6);
+            
+        
+
+        marker_1238792d5fe99de1424479fae50c9549.bindPopup(popup_26f8debc233d80aff3739ba4a271b815)
+        ;
+
+        
+    
+    
+            var marker_d68ade9c2f057ebbdfdcffd5814ff81f = L.marker(
+                [41.402049599269354, 2.174883350356483],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_6bd962d0a4cab6ff0ed267ddf4c22b80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37a2b914d04efcc1fcd0aa0aed395c03 = $(`<div id="html_37a2b914d04efcc1fcd0aa0aed395c03" style="width: 100.0%; height: 100.0%;">Veritas</div>`)[0];
+                popup_6bd962d0a4cab6ff0ed267ddf4c22b80.setContent(html_37a2b914d04efcc1fcd0aa0aed395c03);
+            
+        
+
+        marker_d68ade9c2f057ebbdfdcffd5814ff81f.bindPopup(popup_6bd962d0a4cab6ff0ed267ddf4c22b80)
+        ;
+
+        
+    
+    
+            var marker_19adc2657276036dc48f70a8cb586801 = L.marker(
+                [41.378129557035265, 2.1724833131741055],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_8c1cd9ac7ff7092653896d016d5cf89f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7f782c1e7d1a1137629d8dde12ac152 = $(`<div id="html_d7f782c1e7d1a1137629d8dde12ac152" style="width: 100.0%; height: 100.0%;">Mercadona</div>`)[0];
+                popup_8c1cd9ac7ff7092653896d016d5cf89f.setContent(html_d7f782c1e7d1a1137629d8dde12ac152);
+            
+        
+
+        marker_19adc2657276036dc48f70a8cb586801.bindPopup(popup_8c1cd9ac7ff7092653896d016d5cf89f)
+        ;
+
+        
+    
+    
+            var marker_12f4d0e454e9b8c0214f249d1d44f5d8 = L.marker(
+                [41.38809897543687, 2.1900853560240963],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_dbf2130178fb7b8f6efc192955719f55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ffdd74a3121af629a665d97ded05db6 = $(`<div id="html_8ffdd74a3121af629a665d97ded05db6" style="width: 100.0%; height: 100.0%;">Lidl</div>`)[0];
+                popup_dbf2130178fb7b8f6efc192955719f55.setContent(html_8ffdd74a3121af629a665d97ded05db6);
+            
+        
+
+        marker_12f4d0e454e9b8c0214f249d1d44f5d8.bindPopup(popup_dbf2130178fb7b8f6efc192955719f55)
+        ;
+
+        
+    
+    
+            var marker_ded54f87b08eadd460c3376869959edc = L.marker(
+                [41.41485945133221, 2.18801132876064],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_5ff528e324a82cdc11bb8fc4e1e444a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_569fd38c395c3259661fa6675fc4dbd2 = $(`<div id="html_569fd38c395c3259661fa6675fc4dbd2" style="width: 100.0%; height: 100.0%;">Bon Preu</div>`)[0];
+                popup_5ff528e324a82cdc11bb8fc4e1e444a5.setContent(html_569fd38c395c3259661fa6675fc4dbd2);
+            
+        
+
+        marker_ded54f87b08eadd460c3376869959edc.bindPopup(popup_5ff528e324a82cdc11bb8fc4e1e444a5)
+        ;
+
+        
+    
+    
+            var marker_c8ad6eac980016d399562b3654168f08 = L.marker(
+                [41.378870129270844, 2.1709586578838276],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_2cc10c5269dedf3b06934064fcaff4e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d69c6218340f265d0064817d41bc87d = $(`<div id="html_0d69c6218340f265d0064817d41bc87d" style="width: 100.0%; height: 100.0%;">Consum</div>`)[0];
+                popup_2cc10c5269dedf3b06934064fcaff4e9.setContent(html_0d69c6218340f265d0064817d41bc87d);
+            
+        
+
+        marker_c8ad6eac980016d399562b3654168f08.bindPopup(popup_2cc10c5269dedf3b06934064fcaff4e9)
+        ;
+
+        
+    
+    
+            var marker_451a9871784841929da0e1e93eb9960e = L.marker(
+                [41.38619606945495, 2.1680280629336046],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_440c6dbec9850f681878d642c2b4afbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdc3950decb33dd2ea638d27993f599c = $(`<div id="html_fdc3950decb33dd2ea638d27993f599c" style="width: 100.0%; height: 100.0%;">Dia</div>`)[0];
+                popup_440c6dbec9850f681878d642c2b4afbe.setContent(html_fdc3950decb33dd2ea638d27993f599c);
+            
+        
+
+        marker_451a9871784841929da0e1e93eb9960e.bindPopup(popup_440c6dbec9850f681878d642c2b4afbe)
+        ;
+
+        
+    
+    
+            var marker_49981cc16d2f35ceb68b50bc3dcca959 = L.marker(
+                [41.37516044443208, 2.168210051135306],
+                {}
+            ).addTo(map_9ee8852d3c0245a4ceea3c89f479db30);
+        
+    
+        var popup_a07abfa86f561e0efffbe9fdd9a06d14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f4f99435619e140c02e736eb78eb3d9 = $(`<div id="html_0f4f99435619e140c02e736eb78eb3d9" style="width: 100.0%; height: 100.0%;">Caprabo</div>`)[0];
+                popup_a07abfa86f561e0efffbe9fdd9a06d14.setContent(html_0f4f99435619e140c02e736eb78eb3d9);
+            
+        
+
+        marker_49981cc16d2f35ceb68b50bc3dcca959.bindPopup(popup_a07abfa86f561e0efffbe9fdd9a06d14)
+        ;
+
+        
+    
+</script>
+</html>

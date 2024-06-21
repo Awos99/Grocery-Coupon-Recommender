@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_51ea6f49b9eaeb421d6f27841d39ec1e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_51ea6f49b9eaeb421d6f27841d39ec1e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_51ea6f49b9eaeb421d6f27841d39ec1e = L.map(
+                "map_51ea6f49b9eaeb421d6f27841d39ec1e",
+                {
+                    center: [41.3879, 2.1699],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ee7c0dd4727f52a95796214dadcfe31 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3ee7c0dd4727f52a95796214dadcfe31.addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+            var marker_7521648244ac0a1122eafe6aa4fc36c7 = L.marker(
+                [41.39825740907827, 2.197867935792541],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_4e7a39433b165f5a18a23a28e8e5c5a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ac4e9b67c36d60b176317829b6c0e34 = $(`<div id="html_0ac4e9b67c36d60b176317829b6c0e34" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_4e7a39433b165f5a18a23a28e8e5c5a7.setContent(html_0ac4e9b67c36d60b176317829b6c0e34);
+            
+        
+
+        marker_7521648244ac0a1122eafe6aa4fc36c7.bindPopup(popup_4e7a39433b165f5a18a23a28e8e5c5a7)
+        ;
+
+        
+    
+    
+            var marker_15231dfb1cb30304f4e0230a6893d701 = L.marker(
+                [41.40141979886905, 2.1773147543639784],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_97f8ed00d00ef674538fc4f08ccf11a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1578dbf23dc1b208d7a262e17e939316 = $(`<div id="html_1578dbf23dc1b208d7a262e17e939316" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_97f8ed00d00ef674538fc4f08ccf11a8.setContent(html_1578dbf23dc1b208d7a262e17e939316);
+            
+        
+
+        marker_15231dfb1cb30304f4e0230a6893d701.bindPopup(popup_97f8ed00d00ef674538fc4f08ccf11a8)
+        ;
+
+        
+    
+    
+            var marker_af2cb8e0e918a18e737388b4b01b19ca = L.marker(
+                [41.39727595594008, 2.1657064548577587],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_2caefd722f7a15f84a59de4b4dc4a8b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5948706e485cc7eab4f85a6bbf1cf07 = $(`<div id="html_e5948706e485cc7eab4f85a6bbf1cf07" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_2caefd722f7a15f84a59de4b4dc4a8b2.setContent(html_e5948706e485cc7eab4f85a6bbf1cf07);
+            
+        
+
+        marker_af2cb8e0e918a18e737388b4b01b19ca.bindPopup(popup_2caefd722f7a15f84a59de4b4dc4a8b2)
+        ;
+
+        
+    
+    
+            var marker_670da40488e3f86035fc33c690759a79 = L.marker(
+                [41.403723070948, 2.173993409303753],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_9ea8e5d6158eb1d9e3b7ec1b74affe0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82911f5fa23001eaa5bd47cde4c9caf4 = $(`<div id="html_82911f5fa23001eaa5bd47cde4c9caf4" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_9ea8e5d6158eb1d9e3b7ec1b74affe0b.setContent(html_82911f5fa23001eaa5bd47cde4c9caf4);
+            
+        
+
+        marker_670da40488e3f86035fc33c690759a79.bindPopup(popup_9ea8e5d6158eb1d9e3b7ec1b74affe0b)
+        ;
+
+        
+    
+    
+            var marker_7f17b13fc8071de76160928908b96764 = L.marker(
+                [41.38384603135257, 2.180484490755437],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_abb643efa45b83cd9e213e993cd437d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15d7ecfa37630480fb8a7ae14a481a6a = $(`<div id="html_15d7ecfa37630480fb8a7ae14a481a6a" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_abb643efa45b83cd9e213e993cd437d9.setContent(html_15d7ecfa37630480fb8a7ae14a481a6a);
+            
+        
+
+        marker_7f17b13fc8071de76160928908b96764.bindPopup(popup_abb643efa45b83cd9e213e993cd437d9)
+        ;
+
+        
+    
+    
+            var marker_ab2cc0f8aa690d8bc49115245b2c30ea = L.marker(
+                [41.389714606471685, 2.1768682030039392],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_4504a5ce10980f7dbfe20fd6c67b842a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a390c1b3af8f1b9a428a782bef334d74 = $(`<div id="html_a390c1b3af8f1b9a428a782bef334d74" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_4504a5ce10980f7dbfe20fd6c67b842a.setContent(html_a390c1b3af8f1b9a428a782bef334d74);
+            
+        
+
+        marker_ab2cc0f8aa690d8bc49115245b2c30ea.bindPopup(popup_4504a5ce10980f7dbfe20fd6c67b842a)
+        ;
+
+        
+    
+    
+            var marker_7565bb07a73dd808b432dd262716c337 = L.marker(
+                [41.40095039163849, 2.174282909168399],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_33f97fb617dcad23386d2d5202256736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_759edcfd063af08d3c47477d63cb43fd = $(`<div id="html_759edcfd063af08d3c47477d63cb43fd" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_33f97fb617dcad23386d2d5202256736.setContent(html_759edcfd063af08d3c47477d63cb43fd);
+            
+        
+
+        marker_7565bb07a73dd808b432dd262716c337.bindPopup(popup_33f97fb617dcad23386d2d5202256736)
+        ;
+
+        
+    
+    
+            var marker_1842eeec7e907493fe0d40855b4ba87d = L.marker(
+                [41.38593526236336, 2.185744510944028],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_f4b62809496320f24d09ac2ec30a4562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff4481fcc790692aacd91dfb9a7f4cf1 = $(`<div id="html_ff4481fcc790692aacd91dfb9a7f4cf1" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_f4b62809496320f24d09ac2ec30a4562.setContent(html_ff4481fcc790692aacd91dfb9a7f4cf1);
+            
+        
+
+        marker_1842eeec7e907493fe0d40855b4ba87d.bindPopup(popup_f4b62809496320f24d09ac2ec30a4562)
+        ;
+
+        
+    
+    
+            var marker_7e16a80544003664eb76b912189708ca = L.marker(
+                [41.39184089465402, 2.167385521093128],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_44e9416b21c3e396d01c6d151a8ce099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9392a793368a17f9839824e0507a00f4 = $(`<div id="html_9392a793368a17f9839824e0507a00f4" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_44e9416b21c3e396d01c6d151a8ce099.setContent(html_9392a793368a17f9839824e0507a00f4);
+            
+        
+
+        marker_7e16a80544003664eb76b912189708ca.bindPopup(popup_44e9416b21c3e396d01c6d151a8ce099)
+        ;
+
+        
+    
+    
+            var marker_20fb987251751d48c19ad54ab6e63f8c = L.marker(
+                [41.394510335949576, 2.159642978850056],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_935c7628ef5244c5bce69fb51e7c6fde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3fe00b00c62e73775a764278dc0d5e = $(`<div id="html_2b3fe00b00c62e73775a764278dc0d5e" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_935c7628ef5244c5bce69fb51e7c6fde.setContent(html_2b3fe00b00c62e73775a764278dc0d5e);
+            
+        
+
+        marker_20fb987251751d48c19ad54ab6e63f8c.bindPopup(popup_935c7628ef5244c5bce69fb51e7c6fde)
+        ;
+
+        
+    
+    
+            var marker_52f10e5499d3da3e03202c17af9798b4 = L.marker(
+                [41.3752669349263, 2.167251679511488],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_ade668323322c0ca69d778cc3a6df2dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86a7c2f71ef84700a48dda116ae39f09 = $(`<div id="html_86a7c2f71ef84700a48dda116ae39f09" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_ade668323322c0ca69d778cc3a6df2dc.setContent(html_86a7c2f71ef84700a48dda116ae39f09);
+            
+        
+
+        marker_52f10e5499d3da3e03202c17af9798b4.bindPopup(popup_ade668323322c0ca69d778cc3a6df2dc)
+        ;
+
+        
+    
+    
+            var marker_14ab2b8c0c806364c56d6d25fec26967 = L.marker(
+                [41.38178499538046, 2.185345176481677],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_483eee1bf7c2d782a9c71c0c09c19d67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e22c7d426d41d7e2fdbcbedd082be1f = $(`<div id="html_8e22c7d426d41d7e2fdbcbedd082be1f" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_483eee1bf7c2d782a9c71c0c09c19d67.setContent(html_8e22c7d426d41d7e2fdbcbedd082be1f);
+            
+        
+
+        marker_14ab2b8c0c806364c56d6d25fec26967.bindPopup(popup_483eee1bf7c2d782a9c71c0c09c19d67)
+        ;
+
+        
+    
+    
+            var marker_6b6024df58ba94adc76ab10ca71fd408 = L.marker(
+                [41.39330100467164, 2.17351916575321],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_f45e05ef345c2ac17fcc8f7ee097021c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c5dce659814595236d945a3e3efb2eb = $(`<div id="html_5c5dce659814595236d945a3e3efb2eb" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_f45e05ef345c2ac17fcc8f7ee097021c.setContent(html_5c5dce659814595236d945a3e3efb2eb);
+            
+        
+
+        marker_6b6024df58ba94adc76ab10ca71fd408.bindPopup(popup_f45e05ef345c2ac17fcc8f7ee097021c)
+        ;
+
+        
+    
+    
+            var marker_8c24befe4836ad5d749d8cc9c03d7f1b = L.marker(
+                [41.39940758728307, 2.170326137168522],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_92574672c3dc3fed45d44d2513e1d390 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5137a54a4ce3a360aed2926d05e2b683 = $(`<div id="html_5137a54a4ce3a360aed2926d05e2b683" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_92574672c3dc3fed45d44d2513e1d390.setContent(html_5137a54a4ce3a360aed2926d05e2b683);
+            
+        
+
+        marker_8c24befe4836ad5d749d8cc9c03d7f1b.bindPopup(popup_92574672c3dc3fed45d44d2513e1d390)
+        ;
+
+        
+    
+    
+            var marker_a8c8123ec589bfcfa8ca11ff6f9d0bf1 = L.marker(
+                [41.38241324730536, 2.1701512809601207],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_01bc59e4f9c6bd9ea8c4ceddda201cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46ee4960625b2ab758f2bf87ee6b4bbb = $(`<div id="html_46ee4960625b2ab758f2bf87ee6b4bbb" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_01bc59e4f9c6bd9ea8c4ceddda201cd4.setContent(html_46ee4960625b2ab758f2bf87ee6b4bbb);
+            
+        
+
+        marker_a8c8123ec589bfcfa8ca11ff6f9d0bf1.bindPopup(popup_01bc59e4f9c6bd9ea8c4ceddda201cd4)
+        ;
+
+        
+    
+    
+            var marker_c789600256b4bce6e556ccd25e1f919c = L.marker(
+                [41.38443444308873, 2.160215205667992],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_f4ddaf7d484ba5d6ad8d6bb6f1195dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9fe32d26b4097f854d980c10eacfe8e = $(`<div id="html_b9fe32d26b4097f854d980c10eacfe8e" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_f4ddaf7d484ba5d6ad8d6bb6f1195dc2.setContent(html_b9fe32d26b4097f854d980c10eacfe8e);
+            
+        
+
+        marker_c789600256b4bce6e556ccd25e1f919c.bindPopup(popup_f4ddaf7d484ba5d6ad8d6bb6f1195dc2)
+        ;
+
+        
+    
+    
+            var marker_11b38475ac241b58d90a7198ab12da44 = L.marker(
+                [41.39651408710767, 2.16960356706412],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_5de838d248ece58ddc93f4dc4737a972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ced26e782117d8d9bd5ac6adbbd12ce = $(`<div id="html_7ced26e782117d8d9bd5ac6adbbd12ce" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_5de838d248ece58ddc93f4dc4737a972.setContent(html_7ced26e782117d8d9bd5ac6adbbd12ce);
+            
+        
+
+        marker_11b38475ac241b58d90a7198ab12da44.bindPopup(popup_5de838d248ece58ddc93f4dc4737a972)
+        ;
+
+        
+    
+    
+            var marker_413c462a7fe31f8d3ac808c7d9b32959 = L.marker(
+                [41.39534555393583, 2.1694939541891047],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_5f35ef4add2916eae4fdd3c4826edf7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9ab7741a4ca34337c6045621ae7ca05 = $(`<div id="html_d9ab7741a4ca34337c6045621ae7ca05" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_5f35ef4add2916eae4fdd3c4826edf7a.setContent(html_d9ab7741a4ca34337c6045621ae7ca05);
+            
+        
+
+        marker_413c462a7fe31f8d3ac808c7d9b32959.bindPopup(popup_5f35ef4add2916eae4fdd3c4826edf7a)
+        ;
+
+        
+    
+    
+            var marker_152604e48beb424dc6598a5d5b2af1d8 = L.marker(
+                [41.3846150800698, 2.1675487624061933],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_812c1cad903b155ee980730c05ddc696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf3cb0d76dc132f7e81ecbb3ccf8ccb = $(`<div id="html_0cf3cb0d76dc132f7e81ecbb3ccf8ccb" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_812c1cad903b155ee980730c05ddc696.setContent(html_0cf3cb0d76dc132f7e81ecbb3ccf8ccb);
+            
+        
+
+        marker_152604e48beb424dc6598a5d5b2af1d8.bindPopup(popup_812c1cad903b155ee980730c05ddc696)
+        ;
+
+        
+    
+    
+            var marker_75440294c0d1f6d4a1693bfbe4d050f1 = L.marker(
+                [41.409093555922325, 2.159980505905561],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_ca618dd841d31a161b2d7741bbd3363f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b95f9f34b383c0e8526d1dded336a006 = $(`<div id="html_b95f9f34b383c0e8526d1dded336a006" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_ca618dd841d31a161b2d7741bbd3363f.setContent(html_b95f9f34b383c0e8526d1dded336a006);
+            
+        
+
+        marker_75440294c0d1f6d4a1693bfbe4d050f1.bindPopup(popup_ca618dd841d31a161b2d7741bbd3363f)
+        ;
+
+        
+    
+    
+            var marker_ad2133b09698f3f2c31c30049390f373 = L.marker(
+                [41.39300677966149, 2.1709181735129803],
+                {}
+            ).addTo(map_51ea6f49b9eaeb421d6f27841d39ec1e);
+        
+    
+        var popup_4f68d41c88417b70c4595e78d293fa00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cc230e1986a7eba25f559033c3d8b8d = $(`<div id="html_5cc230e1986a7eba25f559033c3d8b8d" style="width: 100.0%; height: 100.0%;">Ametller Origen</div>`)[0];
+                popup_4f68d41c88417b70c4595e78d293fa00.setContent(html_5cc230e1986a7eba25f559033c3d8b8d);
+            
+        
+
+        marker_ad2133b09698f3f2c31c30049390f373.bindPopup(popup_4f68d41c88417b70c4595e78d293fa00)
+        ;
+
+        
+    
+</script>
+</html>
