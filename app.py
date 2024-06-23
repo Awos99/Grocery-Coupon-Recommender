@@ -11,10 +11,20 @@ df_transactions = pd.read_csv('Data/transactions.csv')
 df_user_loyalty = pd.read_csv('Data/user_loyalty.csv')
 list_users = df_user_loyalty['user'].unique()
 
+# simple app to display recommendations
 
-# simple app
-st.title('Grocery Recommendation System')
-st.write('Welcome to the grocery recommendation system. Please enter your user id and franchise to get started.')
+# Create two columns
+col1, col2 = st.columns(2)
+
+# Use the first column to display the title
+with col1:
+    st.title('PricePal - Grocery Recommendation System')
+    
+# Use the second column to display the logo
+with col2:
+    st.image("./Logo.png", width=200)
+         
+st.write('Welcome to PricePal your grocery recommendation system. Please enter your user id and franchise to get started.')
 
 user_id = st.selectbox('User ID', list_users, index=None)
 if user_id:
@@ -24,13 +34,13 @@ if user_id:
         st.write(f'You should go to shop {shop} at franchise {franchise}')
         #n = st.number_input('Number of recommendations', min_value=1, max_value=10, value=5)
         if 'reco' + str(user_id) + str(shop) not in st.session_state:
-            with st.spinner('Calculating recommendations...'):
+            with st.spinner('Calculating Recommendations...'):
                 recommendations_cross, recommendations_upsell, recommendations_frequent = get_product_recommendations(df_transactions, df_user_loyalty, df_grocery_products, user_id, franchise)
                 st.session_state['reco' + str(user_id) + str(shop)] = [recommendations_cross, recommendations_upsell, recommendations_frequent]
 
-        recommendation_types = ['Cross', 'Upsell', 'Frequent']
+        recommendation_types = ['Cross-Selling', 'Up-Selling', 'Increase frequency of visits with these']
         for index, recos in enumerate(st.session_state['reco' + str(user_id) + str(shop)]):
-            st.title(f'{recommendation_types[index]} recommendations')
+            st.title(f'{recommendation_types[index]} Recommendations')
             if len(recos) > 2:
                 n_columns = 3
             elif len(recos) == 2:
